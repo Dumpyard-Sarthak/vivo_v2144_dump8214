@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config>
+  <product model="PD2204F_EX">
+      <item hardware_id="1" rf_bit_index="4" network_cc_switch="0" />
+  </product>
+</config>

@@ -1,0 +1,7 @@
+52501,Singtel,Singtel
+52502,Singtel,Singtel
+52503,SGP-M1,M1
+52505,StarHub,StarHub
+52507,SGP Call Zone,CallZone
+52508,StarHub,StarHub
+52510,TPG SG,TPG SG

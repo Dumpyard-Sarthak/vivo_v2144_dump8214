@@ -1,0 +1,3 @@
+42901,Nepal Telecom,NT
+42902,Ncell,Ncell
+42904,SmartCell,ST

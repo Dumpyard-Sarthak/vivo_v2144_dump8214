@@ -1,0 +1,2 @@
+MIN    MAX    EFFECTLEVEL    Gain   VOICEEFFECTLEVEL	AudioFocusWidth
+1.0    2.0    0            0      100					180

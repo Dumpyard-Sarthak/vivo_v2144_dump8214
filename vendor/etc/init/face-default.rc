@@ -1,0 +1,11 @@
+on post-fs-data
+    mkdir /data/vendor/faceunlock 0775
+    chown system system /data/vendor/faceunlock
+on property:vendor.face.biometrics=1
+    restart biometrics-face
+    setprop vendor.face.biometrics 0
+service biometrics-face /vendor/bin/hw/android.hardware.biometrics.face-service.aidl
+    class hal
+    user system
+    group system
+

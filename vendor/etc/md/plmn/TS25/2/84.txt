@@ -1,0 +1,3 @@
+28401,A1 BG,A1 BG
+28403,Vivacom BG,Vivacom
+28405,Telenor BG,Telenor

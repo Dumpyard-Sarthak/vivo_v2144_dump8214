@@ -1,0 +1,466 @@
+<mixer>
+    <!-- mixer control default setting start -->
+    <ctl name="SpkLeft stereo Profile" value="speaker" />
+    <ctl name="SpkLeft SmartPA Switch" value="Off" />
+    <ctl name="SpkRight SmartPA Switch" value="Off" />
+
+    <ctl name="ADC_R_Mux" value="Idle" />
+    <ctl name="ADC_L_Mux" value="Idle" />
+    <ctl name="PGA_R_Mux" value="None" />
+    <ctl name="PGA_L_Mux" value="None" />
+
+    <ctl name="DAC In Mux" value="Normal Path" />
+    <ctl name="RCV Mux" value="Open" />
+    <ctl name="HPL Mux" value="Open" />
+    <ctl name="HPR Mux" value="Open" />
+    <ctl name="MISO0_MUX" value="UL1_CH1" />
+    <ctl name="MISO1_MUX" value="UL1_CH1" />
+
+    <ctl name="DMIC0_MUX" value="DMIC_DATA3" />
+    <ctl name="DMIC1_MUX" value="DMIC_DATA3" />
+
+    <ctl name="ADDA_DL_CH1 DL1_CH1" value="0" />
+    <ctl name="ADDA_DL_CH2 DL1_CH2" value="0" />
+    <ctl name="ADDA_DL_CH3 DL1_CH1" value="0" />
+    <ctl name="ADDA_DL_CH4 DL1_CH2" value="0" />
+    <ctl name="ADDA_DL_CH1 DL2_CH1" value="0" />
+    <ctl name="ADDA_DL_CH2 DL2_CH2" value="0" />
+    <ctl name="ADDA_DL_CH3 DL2_CH1" value="0" />
+    <ctl name="ADDA_DL_CH4 DL2_CH2" value="0" />
+
+    <ctl name="I2S3_CH1 DL2_CH1" value="0" />
+    <ctl name="I2S3_CH2 DL2_CH2" value="0" />
+
+    <ctl name="UL1_CH1 ADDA_UL_CH1" value="0" />
+    <ctl name="UL1_CH2 ADDA_UL_CH2" value="0" />
+    <ctl name="UL1_CH1 ADDA_UL_CH2" value="0" />
+    <ctl name="UL1_CH2 ADDA_UL_CH1" value="0" />
+
+    <ctl name="MIC Hifi mode" value="Off" />
+    <ctl name="HP Hifi mode" value="Off" />
+
+    <!-- default gain setting -->
+    <ctl name="PGA1 Volume" value="0" />
+    <ctl name="PGA2 Volume" value="0" />
+    <ctl name="Headset Volume" value="0" />
+    <!-- mixer control default setting start end -->
+    <!-- playback devices start -->
+    <path name="handset">
+        <ctl name="SpkLeft stereo Profile" value="receiver_at" />
+        <ctl name="SpkLeft SmartPA Switch" value="On" />
+    </path>
+
+    <path name="speaker_l">
+        <ctl name="SpkLeft stereo Profile" value="speaker_at" />
+        <ctl name="SpkLeft SmartPA Switch" value="On" />
+    </path>
+
+    <path name="speaker_r">
+        <ctl name="SpkLeft stereo Profile" value="speaker_at" />
+        <ctl name="SpkRight SmartPA Switch" value="On" />
+    </path>
+
+    <path name="double-spk">
+        <ctl name="SpkLeft stereo Profile" value="speaker_at" />
+        <ctl name="SpkLeft SmartPA Switch" value="On" />
+        <ctl name="SpkRight SmartPA Switch" value="On" />
+    </path>
+
+    <path name="headphones">
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="HPL Mux" value="Audio Playback" />
+        <ctl name="HPR Mux" value="Audio Playback" />
+	<ctl name="HP Hifi mode" value="Off" />
+    </path>
+
+    <path name="headphone-hifi">
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="HPL Mux" value="Audio Playback" />
+        <ctl name="HPR Mux" value="Audio Playback" />
+	<ctl name="HP Hifi mode" value="Off" />
+    </path>
+
+    <path name="hphl">
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="HPL Mux" value="Audio Playback" />
+	<ctl name="HP Hifi mode" value="Off" />
+    </path>
+
+    <path name="hphr">
+        <ctl name="DAC In Mux" value="Normal Path" />
+        <ctl name="HPR Mux" value="Audio Playback" />
+	<ctl name="HP Hifi mode" value="Off" />
+    </path>
+    <!-- playback devices end -->
+
+    <path name="playback">
+        <ctl name="I2S3_CH1 DL2_CH1" value="1" />
+        <ctl name="I2S3_CH2 DL2_CH2" value="1" />
+    </path>
+
+    <path name="playback-speaker">
+        <ctl name="I2S3_CH1 DL2_CH1" value="1" />
+        <ctl name="I2S3_CH2 DL2_CH2" value="1" />
+    </path>
+
+    <path name="playback-deepbuffer">
+        <ctl name="I2S3_CH1 DL2_CH1" value="1" />
+        <ctl name="I2S3_CH2 DL2_CH2" value="1" />
+    </path>
+
+    <path name="playback-headphone">
+        <ctl name="ADDA_DL_CH1 DL2_CH1" value="1" />
+        <ctl name="ADDA_DL_CH2 DL2_CH2" value="1" />
+        <ctl name="ADDA_DL_CH3 DL2_CH1" value="1" />
+        <ctl name="ADDA_DL_CH4 DL2_CH2" value="1" />
+    </path>
+
+    <path name="playback-headphone_l">
+        <ctl name="ADDA_DL_CH1 DL2_CH1" value="1" />
+    </path>
+
+    <path name="playback-headphone_r">
+        <ctl name="ADDA_DL_CH2 DL2_CH2" value="1" />
+    </path>
+
+    <path name="playback-headphone-hifi">
+        <ctl name="ADDA_DL_CH1 DL2_CH1" value="1" />
+        <ctl name="ADDA_DL_CH2 DL2_CH2" value="1" />
+        <ctl name="ADDA_DL_CH3 DL2_CH1" value="1" />
+        <ctl name="ADDA_DL_CH4 DL2_CH2" value="1" />
+    </path>
+
+    <path name="handset-mic">
+        <ctl name="MISO0_MUX" value="UL1_CH1" />
+        <ctl name="MISO1_MUX" value="UL1_CH1" />
+        <ctl name="ADC_L_Mux" value="Left Preamplifier" />
+        <ctl name="PGA_L_Mux" value="AIN0" />
+        <ctl name="DMIC0_MUX" value="DMIC_DATA0" />
+        <ctl name="DMIC1_MUX" value="DMIC_DATA0" />
+	<ctl name="MIC Hifi mode" value="Off" />
+    </path>
+
+    <path name="sub-mic">
+        <ctl name="MISO0_MUX" value="UL1_CH2" />
+        <ctl name="MISO1_MUX" value="UL1_CH2" />
+        <ctl name="ADC_R_Mux" value="Right Preamplifier" />
+        <ctl name="PGA_R_Mux" value="AIN2" />
+        <ctl name="DMIC0_MUX" value="DMIC_DATA2" />
+        <ctl name="DMIC1_MUX" value="DMIC_DATA2" />
+	<ctl name="MIC Hifi mode" value="Off" />
+    </path>
+
+    <path name="3nd-mic">
+    </path>
+
+    <path name="smart-mic">
+    </path>
+
+    <path name="headset-mic">
+        <ctl name="MISO0_MUX" value="UL1_CH1" />
+        <ctl name="MISO1_MUX" value="UL1_CH1" />
+        <ctl name="ADC_L_Mux" value="Left Preamplifier" />
+        <ctl name="PGA_L_Mux" value="AIN1" />
+	<ctl name="MIC Hifi mode" value="Off" />
+    </path>
+
+    <path name="double-mic">
+        <ctl name="MISO0_MUX" value="UL1_CH1" />
+        <ctl name="MISO1_MUX" value="UL1_CH2" />
+        <ctl name="ADC_L_Mux" value="Left Preamplifier" />
+        <ctl name="ADC_R_Mux" value="Right Preamplifier" />
+        <ctl name="PGA_L_Mux" value="AIN2" />
+        <ctl name="PGA_R_Mux" value="AIN0" />
+        <ctl name="DMIC0_MUX" value="DMIC_DATA0" />
+        <ctl name="DMIC1_MUX" value="DMIC_DATA1" />
+	<ctl name="MIC Hifi mode" value="Off" />
+    </path>
+
+    <path name="record">
+        <ctl name="UL1_CH1 ADDA_UL_CH1" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH2" value="1" />
+    </path>
+
+    <path name="record_invert">
+        <ctl name="UL1_CH1 ADDA_UL_CH2" value="1" />
+        <ctl name="UL1_CH2 ADDA_UL_CH1" value="1" />
+    </path>
+
+    <!-- alsa record usecase start -->
+    <path name="tc-capture-main-mic">
+        <path name="handset-mic" />
+        <path name="record" />
+	<ctl name="PGA1 Volume" value="7" />
+        <ctl name="PGA2 Volume" value="7" />
+    </path>
+
+    <path name="tc-capture-sub-mic">
+        <path name="sub-mic" />
+        <path name="record" />
+	<ctl name="PGA1 Volume" value="7" />
+        <ctl name="PGA2 Volume" value="7" />
+    </path>
+
+    <path name="tc-capture-smart-mic">
+        <path name="smart-mic" />
+        <path name="record" />
+	<ctl name="PGA1 Volume" value="7" />
+        <ctl name="PGA2 Volume" value="7" />
+    </path>
+
+    <path name="tc-capture-headset-mic">
+        <path name="headset-mic" />
+        <path name="record" />
+	<ctl name="PGA1 Volume" value="7" />
+        <ctl name="PGA2 Volume" value="7" />
+    </path>
+
+    <path name="tc-capture-double-mic">
+        <path name="double-mic" />
+        <path name="record" />
+	<ctl name="PGA1 Volume" value="7" />
+        <ctl name="PGA2 Volume" value="7" />
+    </path>
+    <!-- alsa record usecase end -->
+
+    <path name="tc-playback-rcv">
+        <path name="handset" />
+        <path name="playback" />
+    </path>
+
+    <path name="tc-playback-left-speaker">
+        <path name="speaker_l" />
+        <path name="playback-speaker" />
+    </path>
+
+    <path name="tc-playback-right-speaker">
+        <path name="speaker_r" />
+        <path name="playback-speaker" />
+    </path>
+
+    <path name="tc-playback-dual-speaker">
+        <path name="double-spk" />
+        <path name="playback-speaker" />
+    </path>
+
+    <path name="tc-playback-hifi">
+        <path name="headphones" />
+        <path name="playback-headphone-hifi" />
+    </path>
+
+    <!-- alsa tightness mic test start -->
+    <path name="tc-tightness-main-mic-spk">
+        <path name="speaker_r" />
+        <path name="playback-speaker" />
+        <path name="handset-mic" />
+        <path name="record" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+    </path>
+
+    <path name="tc-tightness-sub-mic-rcv">
+        <path name="handset" />
+        <path name="playback" />
+        <path name="sub-mic" />
+        <path name="record" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+    </path>
+
+    <path name="tc-tightness-main-sub-mic-spk">
+        <path name="double-spk" />
+        <path name="playback-speaker" />
+        <path name="double-mic" />
+        <path name="record_invert" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+    </path>
+
+    <path name="tc-tightness-third-mic-spk">
+    </path>
+    <!-- alsa tightness mic test usecase end -->
+
+    <!-- alsa loopback usecase start -->
+    <path name="tc-handset-rcv-alsa">
+        <path name="handset-mic" />
+        <path name="record" />
+        <path name="handset" />
+        <path name="playback" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+    </path>
+
+    <path name="tc-submic-hp-alsa">
+        <path name="sub-mic" />
+        <path name="record" />
+        <path name="headphones" />
+        <path name="playback-headphone" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+        <ctl name="Headset Volume" value="1" />
+    </path>
+
+    <path name="tc-mic1-hp-alsa">
+        <path name="handset-mic" />
+        <path name="record" />
+        <path name="headphones" />
+        <path name="playback-headphone" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+        <ctl name="Headset Volume" value="1" />
+    </path>
+
+    <path name="tc-mic2-hp-alsa">
+        <path name="sub-mic" />
+        <path name="record" />
+        <path name="headphones" />
+        <path name="playback-headphone" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+        <ctl name="Headset Volume" value="1" />
+    </path>
+
+    <path name="tc-mic3-hp-alsa">
+        <path name="3nd-mic" />
+        <path name="record" />
+        <path name="headphones" />
+        <path name="playback-headphone" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+        <ctl name="Headset Volume" value="1" />
+    </path>
+
+    <path name="tc-dmic-hp-alsa">
+        <path name="double-mic" />
+        <path name="record" />
+        <path name="headphones" />
+        <path name="playback-headphone" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+        <ctl name="Headset Volume" value="1" />
+    </path>
+
+    <path name="tc-handset-hp-alsa">
+        <path name="handset-mic" />
+        <path name="record" />
+        <path name="headphones" />
+        <path name="playback-headphone" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+        <ctl name="Headset Volume" value="1" />
+    </path>
+
+    <path name="tc-headset-rcv-alsa">
+        <path name="headset-mic" />
+        <path name="record" />
+        <path name="handset" />
+        <path name="playback" />
+        <ctl name="PGA1 Volume" value="2" />
+        <ctl name="PGA2 Volume" value="2" />
+    </path>
+
+    <path name="tc-headset-spk-alsa">
+        <path name="headset-mic" />
+        <path name="record" />
+        <path name="speaker_r" />
+        <path name="playback-speaker" />
+        <ctl name="PGA1 Volume" value="4" />
+        <ctl name="PGA2 Volume" value="4" />
+    </path>
+
+    <path name="tc-headset-hifi-alsa">
+        <path name="headset-mic" />
+        <path name="record" />
+        <path name="headphone-hifi" />
+        <path name="playback-headphone-hifi" />
+    </path>
+
+    <path name="tc-handset-hphr-alsa">
+        <path name="handset-mic" />
+        <path name="record" />
+        <path name="hphr" />
+        <path name="playback-headphone_r" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+        <ctl name="Headset Volume" value="1" />
+    </path>
+
+    <path name="tc-submic-hphl-alsa">
+        <path name="sub-mic" />
+        <path name="record" />
+        <path name="hphl" />
+        <path name="playback-headphone_l" />
+        <ctl name="PGA1 Volume" value="5" />
+        <ctl name="PGA2 Volume" value="5" />
+        <ctl name="Headset Volume" value="1" />
+    </path>
+    <!-- alsa loopback usecase end -->
+
+    <!-- volume settings start -->
+    <path name="tc-handset-rcv-vol">
+    </path>
+
+    <path name="tc-dmic-hp-vol">
+    </path>
+
+    <path name="tc-submic-hp-vol">
+    </path>
+
+    <path name="tc-handset-hp-vol">
+    </path>
+
+    <path name="tc-mic1-hp-vol">
+    </path>
+
+    <path name="tc-mic2-hp-vol">
+    </path>
+
+    <path name="tc-mic3-hp-vol">
+    </path>
+
+    <path name="tc-headset-rcv-vol">
+    </path>
+
+    <path name="tc-headset-spk-vol">
+    </path>
+
+    <path name="tc-headset-hifi-vol">
+    </path>
+
+    <path name="tc-handset-hphr-vol">
+    </path>
+
+    <path name="tc-submic-hphl-vol">
+    </path>
+    <!-- volume settings end -->
+
+    <!-- config other ftm  feature start -->
+    <config name="is_bypass_algos" value="1" />
+    <config name="is_hifi_support" value="1" />
+    <config name="is_fm_support" value="0" />
+    <config name="is_ultrasound_support" value="0" />
+    <config name="mic_num" value="2" />
+    <!-- config headset type  0: type C , 1: 3.5mm -->
+    <config name="headset_type" value="0" />
+    <config name="loopback_type" value="4" />
+    <config name="loopback-rx-pcm" value="2" />
+    <config name="loopback-tx-pcm" value="10" />
+    <config name="alsa_tinymix_allow" value="1" />
+    <config name="alsa_pcm_dump_allow" value="1" />
+    <config name="pcm1_config_select" value="4" />
+    <config name="pcm2_config_select" value="5" />
+    <config name="tx-db-spec" value="70" />
+    <config name="tightness-db-spec" value="80" />
+    <config name="mute-rate" value="90" />
+    <config name="tightness-mute-rate" value="90" />
+    <config name="deepbuffer-rx-pcm" value="3" />
+    <!-- config spk-calibrate-info: oem_type(1-vivo,2-ti,3-tfa,4-aw), sp_type(1-vivo,2-ti,3-tfa,4-aw). otherwise, can not change the order of items -->
+    <config name="spk-calibrate-info" spk_num="2" oem_type="3" sp_type="3" re_min="5" re_max="10" f0_min="400" f0_max="1200" qt_min="0" re_min2="5" re_max2="10" f0_min2="400" f0_max2="1200" qt_min2="0" />
+    <config name="factory_test_version" value="factory_v1.0" />
+    <config name="codec_register_path" value="/sys/class/sound/card0/mtk_afe_attrs/mtk_afe_node" />
+    <!-- config name="codec_analog_register_path" value="/sys/class/sound/card0/mtk_codec_attrs/mtk_audio_codec" -->
+    <config name="pa_register_path" value="/sys/bus/i2c/devices/6-0034/reg" />
+    <config name="second_pa_register_path" value="/sys/bus/i2c/devices/6-0036/reg" />
+    <config name="dbg_storage_dir_new" value="/data/vendor/audiohal/audio_dump/engineermode" />
+    <!-- config other ftm  feature end -->
+</mixer>

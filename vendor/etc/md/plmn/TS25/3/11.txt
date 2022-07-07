@@ -1,0 +1,19 @@
+311030,Indigo,Indigo
+311040,USA - Commnet,Commnet
+311080,Pine Cellular,PINECell
+311170,Tampnet,Tampnet
+311190,USAC1ECI,C1ECI
+311230,C Spire,C Spire
+311240,USACWCI,CWCI
+311270,Verizon,Verizon
+311370,GCI,GCI
+311480,Verizon,Verizon
+311530,USANW,USANW
+311580,U.S.Cellular,USCC
+311600,Limitless Mobile,LMUSA
+311630,C Spire,C Spire
+311660,Metro PCS,MPCS
+311710,Northeast Wireless,NEWN
+311740,TCI,TCI
+311810,Bluegrass Wireless,BW
+311990,VTW US,VTW

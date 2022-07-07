@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config version="1.0">
+
+    <!-- Face Config -->
+    <face-config
+        support-3d="False"
+        support-pay="False"
+        support-assistant="False"
+        support-convenience="False"
+        set-convenience="True"
+        set_wallpaper_brightness_adjust="False"
+        set_privacy_brightness_adjust="False"
+        support-vivo-supplier="False"
+        forbid-release="False"
+        support-camera-boost="True"/>
+
+    <!-- Camera Skip Frame -->
+    <skip-frame value="3"/>
+
+    <!-- Adjust Brightness -->
+    <adjust-brightness color="0xFFFDFA" start-brightness="10" brightness="10" duration="0"/>
+
+    <!-- Payment package list -->
+    <payment-package package="com.tencent.mm"/>
+    <payment-package package="com.eg.android.AlipayGphone"/>
+    <payment-package package="com.tencent.mobileqq"/>
+    <payment-package package="com.taobao.taobao"/>
+    <payment-package package="com.tmall.wireless"/>
+    <payment-package package="com.taobao.idlefish"/>
+    <payment-package package="com.taobao.movie.android"/>
+    <payment-package package="com.taobao.trip"/>
+    <payment-package package="com.taobao.litetao"/>
+    <payment-package package="com.citic21.user"/>
+
+    <!-- Platform performace list -->
+    <platform-performance resources="0x40800000, 0x8FC, 0x40804000, 0xfff, 0x40800100, 0xfff, 0x40804100, 0xfff, 0x40800200, 0x852, 0x40804200, 0x9FC, 0x80800100, 0x003, 0x80800200, 0x001"/>
+
+</config>

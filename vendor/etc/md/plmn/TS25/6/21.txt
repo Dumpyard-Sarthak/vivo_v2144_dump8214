@@ -1,0 +1,4 @@
+62120,Airtel,Airtel
+62130,MTN - NG,MTN-NG
+62140,ntel,ntel
+62150,Glo NG,glo

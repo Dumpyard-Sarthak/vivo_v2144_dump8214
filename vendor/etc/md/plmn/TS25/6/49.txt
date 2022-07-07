@@ -1,0 +1,2 @@
+64901,MTC NAMIBIA,MTCNAM
+64903,tnmobile,tnmobile

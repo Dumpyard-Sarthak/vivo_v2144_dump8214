@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AiSODConfig version="0.3.0">
+    <!--网络输出节点最小值(勿改)-->
+    <OutputMin>-26.440929412841797</OutputMin>
+    <!--网络输出节点最大值(勿改)-->
+    <OutputMax>26.234359741210938</OutputMax>
+    <!--算法运行框架(勿改)-->
+    <FrameWork>neuron</FrameWork>
+    <!--算法运行设备(勿改)-->
+    <Device>3</Device>
+    <!--输出是否需要进行Sigmoid处理(勿改)-->
+    <NeedSigmoid>1</NeedSigmoid>
+    <!--模型路径-->
+    <ModelPath>/vendor/camera3rd/nti/sod_for_af.bin</ModelPath>
+    <!--功耗等级(1为高功耗模式, 2为低功耗模式)-->
+    <PowerLevel>2</PowerLevel>
+    <!--跳帧数量(算法进行SOD分割的间隔帧数)-->
+    <SkipFrames>5</SkipFrames>
+    <!--检测框面积阈值-->
+    <MinAcceptBoxArea>30</MinAcceptBoxArea>
+    <!--置信度阈值-->
+    <MinAcceptConfidence>0.5</MinAcceptConfidence>
+    <!--最小边界阈值-->
+    <MinAcceptEdgeRate>0.5</MinAcceptEdgeRate>
+    <!--最大边界阈值-->
+    <MaxAcceptEdgeRate>1.0</MaxAcceptEdgeRate>
+    <!--KCF跟踪算法重置间隔帧数-->
+    <KcfInterval>1</KcfInterval>
+    <!--KCF算法输入尺度-->
+    <KcfInputSize>128</KcfInputSize>
+    <!--内接矩形最小像素置信度阈值(0-255值越小,内接矩形置信度越高,极限值0表示无内接矩形,极限值255退化为外接矩形)-->
+    <InnerThreshold>128</InnerThreshold>
+    <!--输出结果排序方式(None:不排序,Confidence:按照内接矩形置信度排序,Area(按照内接矩形面积排序),Center(按照内接矩形距离图像中心距离排序))-->
+    <SortType>Confidence</SortType>
+    <!--是否设置SOD分割Mask(用于测试IOU|集成设置为0以降低功耗)-->
+    <SetMask>0</SetMask>
+</AiSODConfig>

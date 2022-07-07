@@ -1,0 +1,3 @@
+29701,Telenor,Telenor
+29702,Telekom.me,T.me
+29703,MTEL,MTEL

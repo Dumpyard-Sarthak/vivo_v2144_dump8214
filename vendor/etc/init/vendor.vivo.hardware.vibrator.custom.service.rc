@@ -1,0 +1,29 @@
+
+on late-fs
+    chmod 0666 /dev/vivo_haptic
+    chown system system /dev/vivo_haptic
+    chmod 0666 /dev/vivo_haptic_vice
+    chown system system /dev/vivo_haptic_vice
+
+
+    chmod 0666 /dev/vivo_haptic_core
+    chown system system /dev/vivo_haptic_core
+
+    chmod 0666 /dev/vivo_haptic_vice
+    chown system system /dev/vivo_haptic_vice
+  
+    chown system system /dev/aac_richtap_dev
+
+    chmod 0666 /sys/kernel/hold_actuator/hold_status
+    chown system system /sys/kernel/hold_actuator/hold_status
+
+service vendor.vibrator-default /vendor/bin/hw/vendor.vivo.hardware.vibrator.custom.service
+    class hal
+    user system
+    group system
+
+    setenv RICHTAP_DEVICE_PATH  /dev/vivo_haptic;/dev/vivo_haptic_vice
+    setenv ENV_RICHTAP_CONFIG_PATH /odm/etc/aac_richtap.config;/odm/etc/aac_richtap_1.config
+
+on property:sys.boot_completed=1
+    setprop vendor.haptic.calibrate.done 1

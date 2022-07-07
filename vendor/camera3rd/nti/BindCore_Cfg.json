@@ -1,0 +1,77 @@
+{
+    "softisp_prebps": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_mfainr": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_mfnr": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_ainr": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_cac": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_proraw": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_fastmerge": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_segment": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_skysegment": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_hdralign": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_hdrmerge": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_outline": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_portraitseg": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_localawb": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    },
+    "softisp_demosaic": {
+        "bindcoreStart": 4,
+        "bindcoreEnd": 5,
+        "bindcoreNum": 8
+    }
+}

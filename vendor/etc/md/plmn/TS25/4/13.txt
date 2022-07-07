@@ -1,0 +1,5 @@
+41301,Mobitel LK,Mobitel
+41302,DIALOG,DIALOG
+41303,SRI Etisalat,Etisalat
+41305,SRI AIRTEL,Airtel
+41308,Hutch,Hutch

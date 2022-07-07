@@ -1,0 +1,2 @@
+42701,Ooredoo,Ooredoo
+42702,vodafone,VF-QA

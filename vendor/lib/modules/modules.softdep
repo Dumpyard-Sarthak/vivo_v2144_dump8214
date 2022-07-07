@@ -1,0 +1,4 @@
+# Soft dependencies extracted from modules themselves.
+softdep mali_kbase_mt6983 pre: memory_group_manager
+softdep sensors_class pre: acpm-mfd-bus i2c-exynos5
+softdep sspm_v3 pre: tinysys-scmi.ko

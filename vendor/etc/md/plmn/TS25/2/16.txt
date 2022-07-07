@@ -1,0 +1,4 @@
+21601,Telenor HU,TelenorH
+21603,Digi.Mobil HU,Digi HU
+21630,Telekom HU,THU
+21670,vodafone HU,voda HU

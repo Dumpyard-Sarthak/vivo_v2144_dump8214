@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--When the directory does not include PLATFORM_cpu_stress_cmd, this file maight be used-->
+<!--When "BBK_PRODUCT_SOLUTION" matches "MTK", this xml file will be push into directory "vendor/etc/", as "cpu_stress_cmd.xml"-->
+<cpu_stress>
+<!--procedure num="x", "x" means the parameter followed by command "AT+BK_CPU_STRESS="-->
+<!--Here it means the "AT+BK_CPU_STRESS=0". The same as followed.-->
+	<procedure num="0">
+<!--In this section, the follow two command will be conducted-->
+		<cmdinfo cmd="echo 1 &gt; /sys/power/wake_lock" />
+		<cmdinfo cmd="stop" />
+<!--This command is equal to "echo 1 > /sys/power/wake_lock"-->
+<!--The character ">" is translated into "&gt;" in xml file-->
+	</procedure>
+	
+<!--Start with <procedure num="x">, untill the first </procedure>, the command in the middle will be conducted-->
+	<procedure num="1">
+		<cmdinfo cmd="echo performance &gt; /sys/devices/system/cpu/cpu7/cpufreq/scaling_governor" />
+		<cmdinfo cmd="echo 1 1 1 &gt; /proc/ppm/policy/ut_fix_core_num" />
+		<cmdinfo cmd="echo 15 15 15 &gt; /proc/ppm/policy/ut_fix_freq_idx" />
+		<cmdinfo cmd="echo 1 0 1 &gt; /proc/ppm/policy/ut_fix_core_num" />
+		<cmdinfo cmd="echo 15 15 0 &gt; /proc/ppm/policy/ut_fix_freq_idx" />
+		<cmdinfo cmd="taskset 80 ./factory/bin/stress 100 1 1 &amp;" />
+		<!--This command is equal to "taskset 80 ./factory/bin/stress 100 1 1 &"-->
+		<!--The character "&" is translated into "&amp;" in xml file-->
+	</procedure>
+	
+	<procedure num="2">
+		<cmdinfo cmd="echo performance &gt; /sys/devices/system/cpu/cpu4/cpufreq/scaling_governor" />
+		<cmdinfo cmd="echo 1 1 1 &gt; /proc/ppm/policy/ut_fix_core_num" />
+		<cmdinfo cmd="echo 15 15 15 &gt; /proc/ppm/policy/ut_fix_freq_idx" />
+		<cmdinfo cmd="echo 1 1 0 &gt; /proc/ppm/policy/ut_fix_core_num" />
+		<cmdinfo cmd="echo 15 0 15 &gt; /proc/ppm/policy/ut_fix_freq_idx" />
+		<cmdinfo cmd="taskset 10 ./factory/bin/stress 100 1 1 &amp;" />
+	</procedure>
+	
+	<procedure num="3">
+		<cmdinfo cmd="echo performance &gt; /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor" />
+		<cmdinfo cmd="echo 1 1 1 &gt; /proc/ppm/policy/ut_fix_core_num" />
+		<cmdinfo cmd="echo 15 15 15 &gt; /proc/ppm/policy/ut_fix_freq_idx" />
+		<cmdinfo cmd="echo 1 0 0 &gt; /proc/ppm/policy/ut_fix_core_num" />
+		<cmdinfo cmd="echo 0 15 15 &gt; /proc/ppm/policy/ut_fix_freq_idx" />
+		<cmdinfo cmd="taskset 01 ./factory/bin/stress 100 1 1 &amp;" />
+	</procedure>
+	
+	<procedure num="4">
+		<cmdinfo cmd="pkill -f stress" />
+	</procedure>
+
+	<procedure num="5">
+		<cmdinfo cmd="echo 1 &gt; /sys/power/wake_unlock" />
+	</procedure>
+</cpu_stress>

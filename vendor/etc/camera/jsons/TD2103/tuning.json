@@ -1,0 +1,178 @@
+{
+    "tuningKey": {
+        "COMMENT":[[1, 0, -1, "this is appname tuningkey"]],
+        "appType":{
+            "currentUiMode":{
+                "isSecondSnapshot":[[1, "vivoCamera", 31, 1, 3, "PartyPortrait"]],
+                "isNativeMode":[
+                    [1, "vivoCamera", 31, 1, 1, "NativeMode"],
+                    [1, "vivoCamera", 31, 0, 2, "FaceBeauty"]
+                ]
+            },
+            "enableZeissColor":[[1, "vivoCamera", 1, 23, "ZeissColor"]],
+            "currentUiMode":{
+                "sceneMode":[
+                    [1, "vivoCamera", 7, 1572864, 7, "SuperNightTripod"],
+                    [1, "vivoCamera", 7, 7340032, 7, "SuperNightTripod"],
+                    [1, "vivoCamera", 7, 1048576, 8, "SuperNightExtreme"]
+                ]
+            },
+            "currentUiMode":[
+                [1, "vivoCamera", 7, 9, "SuperNight"],
+                [1, "vivoCamera", 16, 10, "Professional"],
+                [1, "vivoCamera", 51, 5, "Video"],
+                [1, "vivoCamera", 24, 11, "ARStickers"],
+                [1, "vivoCamera", 26, 12, "FunVideo"],
+                [1, "vivoCamera", 12, 13, "TimeLapse"],
+                [1, "vivoCamera", 28, 14, "LivePhoto"],
+                [1, "vivoCamera", 11, 15, "SlowMotion"],
+                [1, "vivoCamera", 29, 16, "SuperClearness"],
+                [1, "vivoCamera", 35, 17, "MotionCapture"],
+                [1, "vivoCamera", 40, 18, "SuperStar"],
+                [1, "vivoCamera", 42, 19, "DiplexExposure"]
+            ],
+            "modeBeauty":{
+                "isSecondSnapshot":[[1, "vivoCamera", 1, 1, 3, "PartyPortrait"]],
+                "isNativeMode":[
+                    [1, "vivoCamera", 1, 1, 1, "NativeMode"],
+                    [1, "vivoCamera", 1, 0, 2, "FaceBeauty"]
+                ]
+            },
+            "modePano":[[1, "vivoCamera", 1, 4, "Panorama"]],
+            "videoNight":{
+                "videoMode":[[1, "vivoCamera", 1, 1, 6, "VideoNight"]],
+                "videoMode":[[1, "vivoCamera", 4, 1, 6, "VideoNight"]]
+            },
+            "videoMode":[[1, "vivoCamera", 1, 5, "Video"]],
+            "currentUiMode":{
+                "isNormalMoon":[
+                    [1, "vivoCamera", 32, 1, 20, "NormalMoon"],
+                    [1, "vivoCamera", 32, 0, 20, "SuperMoon"]
+                ]
+            },
+            "modeHDR":[[1, "vivoCamera", 1, 22, "HDR"]],
+            "lightStreamMode":[
+                [1, "vivoCamera", 1, 24, "SS_CarTrail"],
+                [1, "vivoCamera", 2, 25, "SS_LightPainting"],
+                [1, "vivoCamera", 4, 26, "SS_Pedestrain"],
+                [1, "vivoCamera", 8, 27, "SS_WaterStream"],
+                [1, "vivoCamera", 16, 28, "SS_StarTrail"],
+                [1, "vivoCamera", 32, 24, "SS_CarTrail"],
+                [1, "vivoCamera", 64, 29, "SS_FireWork"]
+            ]
+        },
+        "appType":[[1, "vivoCamera", 0, "vivoCamera"]],
+        "appType":{
+            "currentEngineerMode":[[1, "engcamera", 8, 30, "OISTest"]]
+        },
+
+        "COMMENT":[[2, 0, -1, "this is custom_feature tuningkey"]],
+        "modeHDR":[[2, 1, 3, "Capture_YUV_HDR"]],
+        "modeLLHDR":{
+            "tuningModeAINR":[
+                [2, 1, 0, 4, "Capture_LLHDR"],
+                [2, 1, 1, 6, "Capture_LLHDR_AINR"]
+            ]
+        },
+        "modeClearZoom":[[2, 1, 28, "Capture_ZoomNR"]],
+        "modeSupermoon":[[2, 1, 31, "Capture_SuperMoon"]],
+        "modeVivoSuperNS":{
+            "tuningModeSOFTBRP":[[2, 1, 1, 11, "Capture_RAWHDR30_SuperNight"]],
+            "tuningModeRAWHDRPLUS":{
+                "tuningModeAINR":{
+                    "sceneMode":[
+                        [2, 1, 1, 1, 2621440, 14, "Capture_RAWHDR25P_HDR_AINR"],
+                        [2, 1, 1, 1, 3145728, 17, "Capture_RAWHDR25P_LLHDR_AINR"],
+                        [2, 1, 1, 1, 6815744, 17, "Capture_RAWHDR25P_LLHDR_AINR"],
+                        [2, 1, 1, 1, 4194304, 22, "Capture_RAWHDR25P_HDROFF_AINR"],
+                        [2, 1, 1, 1, 7864320, 19, "Capture_RAWHDR25P_HDRLite_AINR"],
+                        [2, 1, 1, 1, 8388608, 26, "Capture_HDR_Sport_AINR"]
+                    ]
+                },
+                "sceneMode":[
+                    [2, 1, 1, 524288, 20, "Capture_RAWHDR25P_FastNight"],
+                    [2, 1, 1, 1048576, 20, "Capture_RAWHDR25P_FastNight"],
+                    [2, 1, 1, 1572864, 20, "Capture_RAWHDR25P_FastNight"],
+                    [2, 1, 1, 2097152, 20, "Capture_RAWHDR25P_FastNight"],
+                    [2, 1, 1, 2621440, 13, "Capture_RAWHDR25P_HDR"],
+                    [2, 1, 1, 3145728, 16, "Capture_RAWHDR25P_LLHDR"],
+                    [2, 1, 1, 6815744, 16, "Capture_RAWHDR25P_LLHDR"],
+                    [2, 1, 1, 4194304, 21, "Capture_RAWHDR25P_HDROFF"],
+                    [2, 1, 1, 7864320, 18, "Capture_RAWHDR25P_HDRLite"],
+                    [2, 1, 1, 8388608, 25, "Capture_HDR_Sport"],
+                    [2, 1, 1, 7340032, 20, "Capture_RAWHDR25P_FastNight"]
+                ]
+            },
+            "tuningModeRAWHDRPLUS":[[2, 1, 1, 12, "Capture_RAWHDR25P_SuperNight"]],
+            "tuningModeAINR":{
+                "sceneMode":[
+                    [2, 1, 1, 8388608, 26, "Capture_HDR_Sport_AINR"],
+                    [2, 1, 0, 8388608, 26, "Capture_HDR_Sport"]
+                ]
+            },
+            "sceneMode":[[2, 1, 2097152, 7, "Capture_FastNight"]]
+        },
+        "modeVivoSuperNS":[[2, 1, 8, "Capture_SuperNight"]],
+        "modeLightStream":[[2, 1, 33, "Capture_SlowShutter"]],
+        "modeLongShot":[[2, 1, 27, "Capture_Sport_Burst"]],
+        "modeSuperStar":[[2, 1, 32, "Capture_Star"]],
+        "sceneMode":{
+            "tuningModeAINR":[
+                [2, 8, 0, 9, "Capture_RAWNR"],
+                [2, 8, 1, 10, "Capture_RAWNR_AINR"]
+            ]
+        },
+        "sceneMode":{
+            "tuningModeAINR":[
+                [2, 4, 0, 23, "Capture_Sport"],
+                [2, 4, 1, 24, "Capture_Sport_AINR"]
+            ]
+        },
+
+        "COMMENT":[
+            [4, 0, -1, "this is bypassTuningModule tuningkey"],
+            [4, 1, -1, "1--IspGainbinningP1  2--VivoSetIspGain1xP2 4--ByPassLtmP1 8--ByPassLtmP2 16--ByPassTNCP2 32-ltmto14bit"]
+        ],
+        "captureCustomFeature":[
+            [4, 3, 2, "Capture_YUV_HDR:2"],
+            [4, 4, 3, "Capture_YUV_LLHDR:1+2"],
+            [4, 5, 3, "Capture_LLHDR:1+2"],
+            [4, 6, 3, "Capture_LLHDR_AINR:1+2"],
+            [4, 7, 22, "Capture_FastNight:2+4+16"],
+            [4, 8, 23, "Capture_SuperNight:1+2+4+16"],
+            [4, 9, 32, "Capture_RAWNR:32"],
+            [4, 10, 32, "Capture_RAWNR_AINR:32"],
+            [4, 11, 22, "Capture_RAWHDR30_SuperNight:2+4+16"],
+            [4, 12, 23, "Capture_RAWHDR25P_SuperNight:1+2+4+16"],
+            [4, 13, 23, "Capture_RAWHDR25P_HDR:1+2+4+16"],
+            [4, 14, 23, "Capture_RAWHDR25P_HDR_AINR:1+2+4+16"],
+            [4, 15, 23, "Capture_RAWHDR25P_HDR_Motion:1+2+4+16"],
+            [4, 16, 23, "Capture_RAWHDR25P_LLHDR:1+2+4+16"],
+            [4, 17, 23, "Capture_RAWHDR25P_LLHDR_AINR:1+2+4+16"],
+            [4, 18, 23, "Capture_RAWHDR25P_HDRLite:1+2+4+16"],
+            [4, 19, 23, "Capture_RAWHDR25P_HDRLite_AINR:1+2+4+16"],
+            [4, 20, 23, "Capture_RAWHDR25P_FastNight:1+2+4+16"],
+            [4, 21, 19, "Capture_RAWHDR25P_HDROFF:1+2+16"],
+            [4, 22, 19, "Capture_RAWHDR25P_HDROFF_AINR:1+2+16"],
+            [4, 31, 20, "Capture_SuperMoon:4+16"],
+            [4, 32, 20, "Capture_Star:4+16"]
+        ],
+
+        "COMMENT":[[5, 0, -1, "this is custom00 tuningkey"]],
+        "videoMode":{
+            "eisenable":[
+                [5, 1, 1, 8, "Custom_08"],
+                [5, 1, 0, 9, "Custom_09"]
+            ]
+        },
+        "motionLevel":[
+            [5, 0, 0, "Custom_00"],
+            [5, 1, 1, "Custom_01"],
+            [5, 2, 2, "Custom_02"],
+            [5, 3, 3, "Custom_03"],
+            [5, 4, 4, "Custom_04"],
+            [5, 5, 5, "Custom_05"]
+        ]
+    },
+    "JsonVersion":[["版本号",1,"控制变量总数：37，KM：http://km.vivo.xyz/x/6B6LH"]]
+}

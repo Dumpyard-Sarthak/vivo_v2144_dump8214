@@ -1,0 +1,5 @@
+27401,IS SIMINN,SIMINN
+27402,Vodafone,Vodafone
+27404,Viking,Viking
+27408,IS OnWaves,OnWaves
+27411,NOVA IS,NOVA

@@ -1,0 +1,5 @@
+62001,GH MTN,MTN
+62002,GH Vodafone,Vodafone
+62003,AirtelTigo,ATL-TIGO
+62006,AirtelTigo,ATL-TIGO
+62007,Glo Ghana,GloGhana

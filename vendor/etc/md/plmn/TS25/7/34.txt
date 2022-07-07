@@ -1,0 +1,3 @@
+73402,DIGITEL,DIGITEL
+73404,Movistar,Movistar
+73406,VE_MOVILNET,Movilnet

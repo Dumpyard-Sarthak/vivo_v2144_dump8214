@@ -1,0 +1,9 @@
+on boot
+    chmod 0666 /dev/vis_display_spidev
+service hal_visdisplaysrv_default /vendor/bin/hw/vendor.novatek.hardware.visdisplaysrv@1.0-service
+    class hal
+    user system
+    group system
+    ##disabled
+	
+	

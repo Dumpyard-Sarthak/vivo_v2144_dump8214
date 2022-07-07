@@ -1,0 +1,5 @@
+on boot && property:vendor.gki_ko=1
+    insmod /vendor/lib/modules/5.10-gki/conninfra.ko
+	
+on boot
+    insmod /vendor/lib/modules/conninfra.ko

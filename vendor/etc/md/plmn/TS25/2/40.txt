@@ -1,0 +1,7 @@
+24001,TELIA S,TELIA
+24002,3 SE,3 SE
+24004,SWEDEN,SWE
+24005,Sweden,Sweden3G
+24007,Tele2,Tele2 SE
+24008,Telenor SE,TelenorS
+24024,Sweden Mobile,MobileS

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MfainrEffectConfig version="1.2.5">
+<!--PRESET_ULTRAFAST : 0, PRESET_FAST : 1, PRESET_MEDIUM : 2, PRESET_MEDIUM_D4 : 3-->
+    <!-- 去坏点相关参数 -->
+    <!-- 调试说明 : 一般只调节bpcHotFactor, 值越低去坏点能力越强 -->
+    <bpcHotFactor>1.5</bpcHotFactor>
+    <bpcColdFactor>0.333</bpcColdFactor>
+    <highlightDetectThresh>1.2</highlightDetectThresh>
+    <highlightValueThresh>64</highlightValueThresh>
+
+
+    <!-- 人脸锐化相关参数 -->
+    <!-- 调试说明 : -->
+    <expandCoff>1.5</expandCoff>
+    <innerCoff>0.3</innerCoff>
+    <innerRadiusCoff>0.8</innerRadiusCoff>
+    <outterCoff>1.0</outterCoff>
+    <outterRadiusCoff>1.3</outterRadiusCoff>
+    
+    <!-- 运动检测相关参数 -->
+    <!-- 调试说明 : 当画面中出现了运动导致的方格后，可以调低阈值，增大进运动模型的概率-->
+    <motionThreshold>800</motionThreshold>
+
+    <!-- 颜色矫正 -->
+    <!-- 调试说明 : 目前默认不打开颜色矫正曲线，打开后，支持为曲线为三点定义的折线段，根据这三个点计算lut表 -->
+    <!-- 目前运动模型的曲线为统计计算得出的，非人工调试结果 -->
+    <staticLutCurveR lens="3" useLut="0">
+        <x>1000.000000, 1750.000000, 5000.000000</x>
+        <y>1000.000000, 1750.000000, 5000.000000</y>
+    </staticLutCurveR>
+    <staticLutCurveG1 lens="3" useLut="0">
+        <x>1000.000000, 1750.000000, 5000.000000</x>
+        <y>1000.000000, 1750.000000, 5000.000000</y>
+    </staticLutCurveG1>
+    <staticLutCurveG2 lens="3" useLut="0">
+        <x>1000.000000, 1750.000000, 5000.000000</x>
+        <y>1000.000000, 1750.000000, 5000.000000</y>
+    </staticLutCurveG2>
+    <staticLutCurveB lens="3" useLut="0">
+        <x>1000.000000, 1750.000000, 5000.000000</x>
+        <y>1000.000000, 1750.000000, 5000.000000</y>
+    </staticLutCurveB>
+
+    <motionLutCurveR lens="3" useLut="0">
+        <x>1000.000000, 1750.000000, 5000.000000</x>
+        <y>1000.000000, 1750.000000, 5000.000000</y>
+    </motionLutCurveR>
+    <motionLutCurveG1 lens="3" useLut="0">
+        <x>1000.000000, 1750.000000, 5000.000000</x>
+        <y>1000.000000, 1750.000000, 5000.000000</y>
+    </motionLutCurveG1>
+    <motionLutCurveG2 lens="3" useLut="0">
+        <x>1000.000000, 1750.000000, 5000.000000</x>
+        <y>1000.000000, 1750.000000, 5000.000000</y>
+    </motionLutCurveG2>
+    <motionLutCurveB lens="3" useLut="0">
+        <x>1000.000000, 1750.000000, 5000.000000</x>
+        <y>1000.000000, 1750.000000, 5000.000000</y>
+    </motionLutCurveB>
+</MfainrEffectConfig>

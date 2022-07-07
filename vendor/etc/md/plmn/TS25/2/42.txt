@@ -1,0 +1,4 @@
+24201,N Telenor,TELENOR
+24202,N NetCom,NetCom
+24214,N ice,ice
+24299,Tampnet,Tampnet

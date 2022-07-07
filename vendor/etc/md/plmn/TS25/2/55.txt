@@ -1,0 +1,5 @@
+25501,VODAFONE,VODAFONE
+25502,Beeline UA,Beeline
+25503,UA-KYIVSTAR,UA-KS
+25506,life:),life:)
+25507,TriMob,TriMob

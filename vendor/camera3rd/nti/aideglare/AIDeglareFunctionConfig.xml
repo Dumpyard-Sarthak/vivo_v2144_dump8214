@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AIDeglareFunctionConfig version="0.0.3">
+<Framework>neuron</Framework>
+<ModelTree>
+  <Branch category="base model">
+    <ModelName>model.bin</ModelName>
+    <NNModelInfo>
+      <RunWidth>512</RunWidth>
+      <RunHegiht>512</RunHegiht>
+      <RunDepth>3</RunDepth>
+      <InputChannel>3</InputChannel>
+      <Output1Channel>3</Output1Channel>
+      <Output0Channel>2</Output0Channel>
+      <RunPattern>3</RunPattern>
+      <ResidualOutput>1</ResidualOutput>
+      <Output1Min>-0.43089696</Output1Min>
+      <Output1Max>0.37703484</Output1Max>
+      <Output0Min>-7.1603991</Output0Min>
+      <Output0Max>9.2891664</Output0Max>
+    </NNModelInfo>
+  </Branch>
+</ModelTree>
+</AIDeglareFunctionConfig>

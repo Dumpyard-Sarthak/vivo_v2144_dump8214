@@ -1,0 +1,54 @@
+40402,IND airtel,airtel
+40403,IND airtel,airtel
+40404,IDEA,IDEA
+40407,IDEA,IDEA
+40410,airtel,airtel
+40412,IDEA,IDEA
+40414,IDEA,IDEA
+40416,IND airtel,airtel
+40419,IDEA,IDEA
+40422,IDEA,IDEA
+40424,IDEA,IDEA
+40431,IND airtel,airtel
+40434,CellOne,CellOne
+40438,CellOne,CellOne
+40440,IND airtel,airtel
+40444,IDEA,IDEA
+40445,IND airtel,airtel
+40449,IND airtel,airtel
+40451,CellOne,CellOne
+40453,CellOne,CellOne
+40454,CellOne,CellOne
+40455,CellOne,CellOne
+40456,IDEA,IDEA
+40457,CellOne,CellOne
+40458,CellOne,CellOne
+40459,CellOne,CellOne
+40462,CellOne,CellOne
+40464,CellOne,CellOne
+40466,CellOne,CellOne
+40468,IN-DOLPHIN,DOLPHIN
+40469,IN-DOLPHIN,DOLPHIN
+40470,IND airtel,airtel
+40471,CellOne,CellOne
+40472,CellOne,CellOne
+40473,CellOne,CellOne
+40474,CellOne,CellOne
+40475,CellOne,CellOne
+40476,CellOne,CellOne
+40477,CellOne,CellOne
+40478,IDEA,IDEA
+40479,CellOne,CellOne
+40480,CellOne,CellOne
+40481,CellOne,CellOne
+40482,IDEA,IDEA
+40487,IDEA,IDEA
+40489,IDEA,IDEA
+40490,IND airtel,airtel
+40492,IND airtel,airtel
+40493,IND airtel,airtel
+40494,IND airtel,airtel
+40495,IND airtel,airtel
+40496,IND airtel,airtel
+40497,IND airtel,airtel
+40498,IND airtel,airtel

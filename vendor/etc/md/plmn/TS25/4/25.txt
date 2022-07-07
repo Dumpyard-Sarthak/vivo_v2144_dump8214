@@ -1,0 +1,8 @@
+42501,Partner IL,Partner
+42502,Cellcom IL,Cellcom
+42503,IL Pelephone,PCL
+42505,JAWWAL-PALESTINE,JAWWAL
+42506,Ooredoo Palestine,Ooredoo
+42507,Hot Mobile Ltd.,HOT IL
+42508,Golan IL,Golan T
+42528,Hot Mobile Ltd.,Israel

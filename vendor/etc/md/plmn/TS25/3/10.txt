@@ -1,0 +1,44 @@
+310020,US - Union Telephone,UnionTel
+310030,AT&T,AT&T
+310032,IT&E,IT&E
+310050,GCI,GCI
+310110,IT&E,IT&E
+310120,Sprint,Sprint
+310140,GTA,GTA
+310150,AT&T,AT&T
+310160,T-Mobile,T-Mobile
+310170,AT&T,AT&T
+310180,West Central Wireless,WCW
+310190,USA Dutch Harbor,D-HARBOR
+310200,T-Mobile,T-Mobile
+310210,T-Mobile,T-Mobile
+310220,T-Mobile,T-Mobile
+310230,T-Mobile,T-Mobile
+310240,T-Mobile,T-Mobile
+310250,T-Mobile,T-Mobile
+310260,T-Mobile,T-Mobile
+310270,T-Mobile,T-Mobile
+310280,AT&T,AT&T
+310300,BigSkyUS,Big Sky
+310310,T-Mobile,T-Mobile
+310320,USA - CellularOne,Cell
+310340,Limitless Mobile,LMUSA
+310370,DOCOMO PACIFIC,DPAC
+310380,AT&T,AT&T
+310410,AT&T,AT&T
+310450,Cell One of NE Colorado,NECCI
+310460,USA1L,USA1L
+310470,DOCOMO PACIFIC,DPAC
+310490,T-Mobile,T-Mobile
+310530,Iowa Wireless USA,IWS
+310570,Cell One,Cell One
+31058,Inland Cellular,IC
+310630,USA AmeriLink,AMERLINK
+310660,T-Mobile,T-Mobile
+310690,Limitless Mobile,LMUSA
+310730,U.S.Cellular,USCC
+310740,USA OTZ,OTZ
+310770,Iowa Wireless USA,IWS
+310800,T-Mobile,T-Mobile
+310840,telna Mobile,telna
+310990,Worldcall,Evolve

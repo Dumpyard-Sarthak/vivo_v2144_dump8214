@@ -1,0 +1,152 @@
+{
+	"modeNum": 13,
+
+	"mode0": {
+		"latency": 30,
+		"crop_factor": 0.8,
+		"modeindex": 0,
+		"useFullFov": 0,
+		"fovc": 1,
+		"description": "normal eis 1080P 30FPS"
+	},
+	"mode1": {
+		"latency": 30,
+		"crop_factor": 0.8,
+		"modeindex": 1,
+		"useFullFov": 0,
+		"fovc": 1,
+		"description": "normal eis 1080P 60FPS"
+	},
+	"mode2": {
+		"latency": 20,
+		"crop_factor": 0.8,
+		"modeindex": 2,
+		"useFullFov": 0,
+		"fovc": 1,
+		"description": "normal eis 4K 30FPS"
+	},
+	"mode3": {
+		"latency": 20,
+		"crop_factor": 0.8,
+		"modeindex": 3,
+		"useFullFov": 0,
+		"fovc": 1,
+		"description": "normal eis 4K 60FPS"
+	},
+	"mode4": {
+		"latency": 30,
+		"crop_factor": 0.8,
+		"modeindex": 4,
+		"useFullFov": 0,
+		"fovc": 1,
+		"description": "normal eis wide"
+	},
+	"mode5": {
+		"latency": 30,
+		"crop_factor": 0.7,
+		"modeindex": 5,
+		"useFullFov": 0,
+		"fovc": 1,
+		"superEIS": 1,
+		"description": "super eis"
+	},
+	"mode6": {
+		"latency": 0,
+		"crop_factor": 0.9,
+		"modeindex": 6,
+		"useFullFov": 0,
+		"fovc": 0,
+		"superEIS": 0,
+		"bypassRatio": 10,
+		"description": "photoMode open eis in 10x"
+	},
+	"mode7": {
+		"latency": 20,
+		"crop_factor": 0.5,
+		"modeindex": 7,
+		"useFullFov": 0,
+		"fovc": 1,
+		"hc_enable": 1,
+		"description": "skyline eis 60"
+	},
+	"mode8": {
+		"latency": 20,
+		"crop_factor": 0.5,
+		"modeindex": 8,
+		"useFullFov": 0,
+		"fovc": 1,
+		"hc_enable": 1,
+		"description": "skyline eis 30"
+	},
+	"mode9": {
+		"latency": 20,
+		"crop_factor": 0.5,
+		"modeindex": 9,
+		"useFullFov": 0,
+		"fovc": 1,
+		"hc_enable": 1,
+		"description": "skyline eis 24"
+	},
+	"mode10": {
+		"latency": 20,
+		"crop_factor": 0.833,
+		"modeindex": 11,
+		"useFullFov": 0,
+		"fovc": 1,
+		"description": "night eis 24/30FPS"
+	},
+	"mode11": {
+		"latency": 30,
+		"crop_factor": 0.5,
+		"modeindex": 7,
+		"useFullFov": 1,
+		"fovc": 1,
+		"hc_enable": 1,
+		"description": "skyline eis 60"
+	},
+	"mode12": {
+		"latency": 30,
+		"crop_factor": 0.5,
+		"modeindex": 8,
+		"useFullFov": 1,
+		"fovc": 1,
+		"hc_enable": 1,
+		"description": "skyline eis 30"
+	},
+	"cameraNum": 5,
+
+	"comments": "oisType 0:none 1:LENS_SHIFT 2:SENSOR_SHIFT 3:LENS_TILT 4:MODULE_TILT",
+
+	"camera0": {
+		"cameraid": 0,
+		"oisType": 1,
+		"icCount": 62.5,
+		"binning": 1,
+		"description": "wide with LENS_SHIFT"
+	},
+	"camera1": {
+		"cameraid": 2,
+		"oisType": 0,
+		"binning": 1,
+		"description": "2x with no OIS"
+	},
+	"camera2": {
+		"cameraid": 3,
+		"oisType": 0,
+		"binning": 1,
+		"description": "ultra wide with no OIS"
+	},
+	"camera3": {
+		"cameraid": 4,
+		"oisType": 0,
+		"binning": 0,
+		"description": "5x with MODULE_TILT"
+	},
+	"camera4": {
+		"cameraid": 1,
+		"oisType": 0,
+		"binning": 0,
+		"description": "front with no OIS"
+ 	}
+
+}

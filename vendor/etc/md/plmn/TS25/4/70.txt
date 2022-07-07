@@ -1,0 +1,5 @@
+470001,Grameenphone,Grameen
+47002,robi axiata,robi
+47003,Banglalink,BL
+47004,BGD bMobile,bMobile
+47007,Airtel,Airtel

@@ -1,0 +1,3 @@
+34403,APUA inet,inet
+344920,FLOW,FLOW
+344930,Cingular,Cingular

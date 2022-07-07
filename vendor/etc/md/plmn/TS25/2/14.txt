@@ -1,0 +1,4 @@
+21401,vodafone ES,voda ES
+21403,Orange SP,ESPRT
+21404,YOIGO,YOIGO
+21407,Movistar,Movistar

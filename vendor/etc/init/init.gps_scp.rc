@@ -1,0 +1,7 @@
+
+# load gps_drv
+on property:vendor.connsys.driver.ready=yes && property:vendor.gki_ko=1
+  insmod /vendor/lib/modules/5.10-gki/gps_scp.ko
+
+on property:vendor.connsys.driver.ready=yes
+  insmod /vendor/lib/modules/gps_scp.ko

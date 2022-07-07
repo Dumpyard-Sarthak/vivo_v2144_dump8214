@@ -1,0 +1,42 @@
+{
+    "version_model": "1.1.0",
+    "version_platform": "1.1.0",
+    "release data": "2022-02-17",
+    "device": 0,
+    "power_mode": 0,
+    "supp_resolution": [
+        256,
+        512,
+        768
+    ],
+    "model01": {
+        "node_info": {
+            "input_node": "input_0",
+            "output_node": "add_84",
+            "out_scales": 4171823.617071,
+            "out_zeps": -7
+        },
+        "model_name": "AISkin_Mdx1_004_004_256.bin",
+        "net_size": 256
+    },
+    "model02": {
+        "node_info": {
+            "input_node": "input_0",
+            "output_node": "add_84",
+            "out_scales": 4058045.335114,
+            "out_zeps": -2
+        },
+        "model_name": "AISkin_Mdx1_004_004_512.bin",
+        "net_size": 512
+    },
+    "model03": {
+        "node_info": {
+            "input_node": "input_0",
+            "output_node": "add_84",
+            "out_scales": 4084523.301572,
+            "out_zeps": -3
+        },
+        "model_name": "AISkin_Mdx1_004_004_768.bin",
+        "net_size": 768
+    }
+}

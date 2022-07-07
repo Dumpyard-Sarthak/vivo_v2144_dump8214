@@ -1,0 +1,5 @@
+45500,SmarTone MAC,SMC MAC
+45501,CTM,CTM
+45503,3 Macau,3 Macau
+45504,CTM,CTM
+45505,3 Macau,3 Macau

@@ -1,0 +1,547 @@
+{
+    "config": [
+        {
+            "type": "GSM",
+            "band": "GSM-850",
+            "atEtxAnt":   "AT+ETXANT=1,1,0,,0",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=2,1,190,4100,128,5,5,0",
+			"atHighTx":   "",
+
+            "note": "interval:发射功率停止后间歇时长（秒）。duration ：每个信道发射功率的时长（秒），只有在非Camera测试时该值才会生效。进行Camera测试时，duration会自动和Camera测试同步（duration为当前设备所有camera遍历完的时间）",
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		{
+            "type": "GSM",
+            "band": "GSM-900",
+            "atEtxAnt":   "AT+ETXANT=1,1,0,,0",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=2,1,62,4100,1,5,5,0",
+			"atHighTx":   "",
+			
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+        {
+            "type": "GSM",
+            "band": "GSM-1800",
+            "atEtxAnt":   "AT+ETXANT=1,1,0,,0",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=2,1,698,4100,8,5,0,0",
+			"atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		 
+		{
+            "type": "GSM",
+            "band": "GSM-1900",
+            "atEtxAnt":   "AT+ETXANT=1,1,0,,0",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=2,1,661,4100,16,5,0,0",
+			"atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+        {
+            "type": "LTE",
+            "band": "LTE-B1",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,1,3,19500,1,0,0,0,50,0,26,1,0",
+			"atHighTx":   "",
+			
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+        {
+            "type": "LTE",
+            "band": "LTE-B2",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,2,3,18800,1,0,0,0,50,0,26,1,0",
+			"atHighTx":   "",
+			
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+        {
+            "type": "LTE",
+            "band": "LTE-B3",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,3,3,17500,1,0,0,0,50,0,26,1,0",
+			"atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+        {
+            "type": "LTE",
+            "band": "LTE-B5",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,5,3,8365,1,0,0,0,50,0,26,1,0",
+			"atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+		{
+            "type": "LTE",
+            "band": "LTE-B7",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,7,3,25350,1,0,0,0,50,0,26,1,0",
+			"atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+        {
+            "type": "LTE",
+            "band": "LTE-B8",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,8,3,8975,1,0,0,0,50,0,26,1,0",
+			"atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		    {
+            "type": "LTE",
+            "band": "LTE-B20",
+            "atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,20,3,8470,1,0,0,0,50,0,26,1,0",
+            "atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+
+        {
+            "type": "LTE",
+            "band": "LTE-B28",
+            "atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,28,3,7255,1,0,0,0,50,0,26,1,0",
+            "atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+        {
+            "type": "LTE",
+            "band": "LTE-B39",
+			"atLowTx":    "",
+            "atMiddleTx": "AT+ERFTX=6,0,1,39,3,19000,0,0,0,0,50,0,26,1,0",
+			"atHighTx":   "",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+        {
+            "type": "LTE",
+            "band": "LTE-B40",
+            "atLowTx":    "AT+ERFTX=6,0,1,40,3,23050,0,0,0,0,50,0,26,1,0",
+            "atMiddleTx": "AT+ERFTX=6,0,1,40,3,23500,0,0,0,0,50,0,26,1,0",
+            "atHighTx":   "AT+ERFTX=6,0,1,40,3,23950,0,0,0,0,50,0,26,1,0",
+           
+		    "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+		{
+            "type": "LTE",
+            "band": "LTE-B41",
+            "atLowTx":    "AT+ERFTX=6,0,1,41,3,25200,1,0,0,0,50,0,26,1,0",
+            "atMiddleTx": "AT+ERFTX=6,0,1,41,3,25950,1,0,0,0,50,0,26,1,0",
+            "atHighTx":   "AT+ERFTX=6,0,1,41,3,26700,1,0,0,0,50,0,26,1,0",
+            
+			"duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+		{
+            "type": "NR5G",
+            "band": "NR5G_N1",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,0,41",
+            "atPrxLowTx":   "",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",1,1,20000,1950000,0,50,2,0,26,1,0",
+            "atPrxHighTx":  "",
+			
+			"antenna": "",
+            "atDrxTxRx": "",
+            "atDrxLowTx":   "",
+            "atDrxMiddleTx":"",
+            "atDrxHighTx":  "",
+			
+			"antenna": "",
+            "atPrxMimoTxRx": "",
+            "atPrxMimoLowTx":   "",
+            "atPrxMimoMiddleTx":"",
+            "atPrxMimoHighTx":  "",
+
+            "antenna": "DRX MIMO",
+            "atDrxMimoTxRx": "",
+            "atDrxMimoLowTx":   "",
+            "atDrxMimoMiddleTx":"",
+            "atDrxMimoHighTx":  "",
+
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		{
+            "type": "NR5G",
+            "band": "NR5G_N3",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,0,41",
+            "atPrxLowTx":   "",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",1,3,20000,1747500,0,50,2,0,26,1,0",
+            "atPrxHighTx":  "",
+			
+			"antenna": "",
+            "atDrxTxRx": "",
+            "atDrxLowTx":   "",
+            "atDrxMiddleTx":"",
+            "atDrxHighTx":  "",
+			
+            "antenna": "",
+            "atPrxMimoTxRx": "",
+            "atPrxMimoLowTx":   "",
+            "atPrxMimoMiddleTx":"",
+            "atPrxMimoHighTx":  "",
+			
+            "antenna": "",
+            "atDrxMimoTxRx": "",
+            "atDrxMimoLowTx":   "",
+            "atDrxMimoMiddleTx":"",
+            "atDrxMimoHighTx":  "",
+
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		{
+            "type": "NR5G",
+            "band": "NR5G_N5",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,0,41",
+            "atPrxLowTx":   "",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",1,5,20000,836000,0,50,2,0,26,1,0",
+            "atPrxHighTx":  "",
+			
+			"antenna": "",
+            "atDrxTxRx": "",
+            "atDrxLowTx":   "",
+            "atDrxMiddleTx":"",
+            "atDrxHighTx":  "",
+			
+            "antenna": "",
+            "atPrxMimoTxRx": "",
+            "atPrxMimoLowTx":   "",
+            "atPrxMimoMiddleTx":"",
+            "atPrxMimoHighTx":  "",
+			
+            "antenna": "",
+            "atDrxMimoTxRx": "",
+            "atDrxMimoLowTx":   "",
+            "atDrxMimoMiddleTx":"",
+            "atDrxMimoHighTx":  "",
+			
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		
+		{
+            "type": "NR5G",
+            "band": "NR5G_N8",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,0,41",
+            "atPrxLowTx":   "",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",1,8,20000,897000,0,50,2,0,26,1,0",
+            "atPrxHighTx":  "",
+			
+			"antenna": "",
+            "atDrxTxRx": "",
+            "atDrxLowTx":   "",
+            "atDrxMiddleTx":"",
+            "atDrxHighTx":  "",
+			
+            "antenna": "",
+            "atPrxMimoTxRx": "",
+            "atPrxMimoLowTx":   "",
+            "atPrxMimoMiddleTx":"",
+            "atPrxMimoHighTx":  "",
+
+            "antenna": "",
+            "atDrxMimoTxRx": "",
+            "atDrxMimoLowTx":   "",
+            "atDrxMimoMiddleTx":"",
+            "atDrxMimoHighTx":  "",
+			
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+		{
+            "type": "NR5G",
+            "band": "NR5G_N28",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,0,41",
+            "atPrxLowTx":   "",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",1,28,20000,718000,0,50,2,0,26,1,0",
+            "atPrxHighTx":  "",
+			
+			"antenna": "",
+            "atDrxTxRx": "",
+            "atDrxLowTx":   "",
+            "atDrxMiddleTx":"",
+            "atDrxHighTx":  "",
+			
+            "antenna": "",
+            "atPrxMimoTxRx": "",
+            "atPrxMimoLowTx":   "",
+            "atPrxMimoMiddleTx":"",
+            "atPrxMimoHighTx":  "",
+
+            "antenna": "",
+            "atDrxMimoTxRx": "",
+            "atDrxMimoLowTx":   "",
+            "atDrxMimoMiddleTx":"",
+            "atDrxMimoHighTx":  "",
+
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+				{
+            "type": "NR5G",
+            "band": "NR5G_N40",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,0,41",
+            "atPrxLowTx":   "",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",1,40,80000,2350000,108,54,2,1,26,1,0",
+            "atPrxHighTx":  "",
+			
+			"antenna": "",
+            "atDrxTxRx": "",
+            "atDrxLowTx":   "",
+            "atDrxMiddleTx":"",
+            "atDrxHighTx":  "",
+			
+            "antenna": "",
+            "atPrxMimoTxRx": "",
+            "atPrxMimoLowTx":   "",
+            "atPrxMimoMiddleTx":"",
+            "atPrxMimoHighTx":  "",
+
+            "antenna": "",
+            "atDrxMimoTxRx": "",
+            "atDrxMimoLowTx":   "",
+            "atDrxMimoMiddleTx":"",
+            "atDrxMimoHighTx":  "",
+
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+						{
+            "type": "NR5G",
+            "band": "NR5G_N7",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,0,41",
+            "atPrxLowTx":   "",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",1,7,20000,2535000,0,50,2,0,26,1,0",
+            "atPrxHighTx":  "",
+			
+			"antenna": "",
+            "atDrxTxRx": "",
+            "atDrxLowTx":   "",
+            "atDrxMiddleTx":"",
+            "atDrxHighTx":  "",
+			
+            "antenna": "",
+            "atPrxMimoTxRx": "",
+            "atPrxMimoLowTx":   "",
+            "atPrxMimoMiddleTx":"",
+            "atPrxMimoHighTx":  "",
+
+            "antenna": "",
+            "atDrxMimoTxRx": "",
+            "atDrxMimoLowTx":   "",
+            "atDrxMimoMiddleTx":"",
+            "atDrxMimoHighTx":  "",
+
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "NR5G",
+            "band": "NR5G_N41",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,0,41",
+            "atPrxLowTx":   "AT+EGMC=1,\"NrForcedTx\",4,41,100000,2550010,67,135,2,1,26,1,0",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",4,41,100000,2600005,67,135,2,1,26,1,0",
+            "atPrxHighTx":  "AT+EGMC=1,\"NrForcedTx\",4,41,100000,2640000,67,135,2,1,26,1,0",
+
+            "antenna": "DRX",
+            "atDrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,1,0,41",
+            "atDrxLowTx":   "AT+EGMC=1,\"NrForcedTx\",4,41,100000,2550010,67,135,2,1,26,1,0",
+            "atDrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",4,41,100000,2600005,67,135,2,1,26,1,0",
+            "atDrxHighTx":  "AT+EGMC=1,\"NrForcedTx\",4,41,100000,2640000,67,135,2,1,26,1,0",
+
+            "antenna": "PRX MIMO",
+            "atPrxMimoTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,2,0,41",
+            "atPrxMimoLowTx":   "AT+EGMC=1,\"NrForcedTx\",4,41,100000,2550010,67,135,2,1,26,1,0",
+            "atPrxMimoMiddleTx":"AT+EGMC=1,\"NrForcedTx\",4,41,100000,2600005,67,135,2,1,26,1,0",
+            "atPrxMimoHighTx":  "AT+EGMC=1,\"NrForcedTx\",4,41,100000,2640000,67,135,2,1,26,1,0",
+
+            "antenna": "",
+            "atDrxMimoTxRx": "",
+            "atDrxMimoLowTx":   "",
+            "atDrxMimoMiddleTx":"",
+            "atDrxMimoHighTx":  "",
+
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "NR5G",
+            "band": "NR5G_N78",
+            "antenna": "PRX",
+            "atPrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,0,1,41",
+            "atPrxLowTx":   "AT+EGMC=1,\"NrForcedTx\",4,78,100000,3350010,67,135,2,1,26,1,0",
+            "atPrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",4,78,100000,3450005,67,135,2,1,26,1,0",
+            "atPrxHighTx":  "AT+EGMC=1,\"NrForcedTx\",4,78,100000,3550000,67,135,2,1,26,1,0",
+
+            "antenna": "DRX",
+            "atDrxTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,2,1,41",
+            "atDrxLowTx":   "AT+EGMC=1,\"NrForcedTx\",4,78,100000,3350010,67,135,2,1,26,1,0",
+            "atDrxMiddleTx":"AT+EGMC=1,\"NrForcedTx\",4,78,100000,3450005,67,135,2,1,26,1,0",
+            "atDrxHighTx":  "AT+EGMC=1,\"NrForcedTx\",4,78,100000,3550000,67,135,2,1,26,1,0",
+
+            "antenna": "PRX MIMO",
+            "atPrxMimoTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,3,1,41",
+            "atPrxMimoLowTx":   "AT+EGMC=1,\"NrForcedTx\",4,78,100000,3350010,67,135,2,1,26,1,0",
+            "atPrxMimoMiddleTx":"AT+EGMC=1,\"NrForcedTx\",4,78,100000,3450005,67,135,2,1,26,1,0",
+            "atPrxMimoHighTx":  "AT+EGMC=1,\"NrForcedTx\",4,78,100000,3550000,67,135,2,1,26,1,0",
+
+            "antenna": "DRX MIMO",
+            "atDrxMimoTxRx": "AT+EGMC=1,\"NrForceTxRx\",1,4,1,41",
+            "atDrxMimoLowTx":   "AT+EGMC=1,\"NrForcedTx\",4,78,100000,3350010,67,135,2,1,26,1,0",
+            "atDrxMimoMiddleTx":"AT+EGMC=1,\"NrForcedTx\",4,78,100000,3450005,67,135,2,1,26,1,0",
+            "atDrxMimoHighTx":  "AT+EGMC=1,\"NrForcedTx\",4,78,100000,3550000,67,135,2,1,26,1,0",
+
+            "duration": 30,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "WiFi",
+            "band": "WiFi 2.4G CH0",
+            "atLowTx":    "AT+BK_WLAN_CH0=B,1,CCK11,18",
+            "atMiddleTx": "AT+BK_WLAN_CH0=B,6,CCK11,18",
+            "atHighTx":   "AT+BK_WLAN_CH0=B,13,CCK11,18",
+            "duration": 120,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "WiFi",
+            "band": "WiFi 2.4G CH1",
+            "atLowTx":    "AT+BK_WLAN_CH1=B,1,CCK11,18",
+            "atMiddleTx": "AT+BK_WLAN_CH1=B,6,CCK11,18",
+            "atHighTx":   "AT+BK_WLAN_CH1=B,13,CCK11,18",
+            "duration": 120,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "WiFi",
+            "band": "WiFi 5.1G CH0",
+            "atLowTx":    "AT+BK_WLAN_CH0=A,36,OFDM6,17",
+            "atMiddleTx": "AT+BK_WLAN_CH0=A,48,OFDM6,17",
+            "atHighTx":   "AT+BK_WLAN_CH0=A,64,OFDM6,17",
+            "duration": 120,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "WiFi",
+            "band": "WiFi 5.1G CH1",
+            "atLowTx":    "AT+BK_WLAN_CH1=A,36,OFDM6,17",
+            "atMiddleTx": "AT+BK_WLAN_CH1=A,48,OFDM6,17",
+            "atHighTx":   "AT+BK_WLAN_CH1=A,64,OFDM6,17",
+            "duration": 120,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "WiFi",
+            "band": "WiFi 5.5G CH0",
+            "atLowTx":    "AT+BK_WLAN_CH0=A,104,OFDM6,17",
+            "atMiddleTx": "AT+BK_WLAN_CH0=A,112,OFDM6,17",
+            "atHighTx":   "AT+BK_WLAN_CH0=A,120,OFDM6,17",
+            "duration": 120,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "WiFi",
+            "band": "WiFi 5.5G CH1",
+            "atLowTx":    "AT+BK_WLAN_CH1=A,104,OFDM6,17",
+            "atMiddleTx": "AT+BK_WLAN_CH1=A,112,OFDM6,17",
+            "atHighTx":   "AT+BK_WLAN_CH1=A,120,OFDM6,17",
+            "duration": 120,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "WiFi",
+            "band": "WiFi 5.8G CH0",
+            "atLowTx":    "AT+BK_WLAN_CH0=A,149,OFDM6,17",
+            "atMiddleTx": "AT+BK_WLAN_CH0=A,157,OFDM6,17",
+            "atHighTx":   "AT+BK_WLAN_CH0=A,165,OFDM6,17",
+            "duration": 120,
+            "interval": 0,
+            "ischecked": true
+        },
+        {
+            "type": "WiFi",
+            "band": "WiFi 5.8G CH1",
+            "atLowTx":    "AT+BK_WLAN_CH1=A,149,OFDM6,17",
+            "atMiddleTx": "AT+BK_WLAN_CH1=A,157,OFDM6,17",
+            "atHighTx":   "AT+BK_WLAN_CH1=A,165,OFDM6,17",
+            "duration": 120,
+            "interval": 0,
+            "ischecked": true
+        }
+    ]
+}

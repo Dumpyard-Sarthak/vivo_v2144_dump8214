@@ -1,0 +1,3 @@
+Maxinum number of sensors: 8
+
+IMX663WIDEPD2183_MIPI_RAW

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SkySegConfig version="0.2.1">
+    <InputName>input/0</InputName>
+    <OutputName>bilinear/206</OutputName>
+    <SessionName>skyseg_opencl</SessionName>
+    <ModelPath>/vendor/camera3rd/nti/refnet_mobilev3_edgeTPU_512_skyseg_20220408.vdnn</ModelPath>
+</SkySegConfig>

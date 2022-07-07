@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MfainrFunctionConfig version="1.2.5">
+    <Framework>neuron</Framework>
+
+    <!-- 4c标定相关参数 -->
+    <a0 G2="5.025709803921569e-07" B="5.025709803921569e-07" R="5.025709803921569e-07" G1="5.025709803921569e-07">1</a0>
+    <a1 G2="2.3603777254901958e-05" B="2.3603777254901958e-05" R="2.3603777254901958e-05" G1="2.3603777254901958e-05">1</a1>
+    <b0 G2="4.09842368319877e-12" B="4.09842368319877e-12" R="4.09842368319877e-12" G1="4.09842368319877e-12">1</b0>
+    <b1 G2="1.5860146097654747e-09" B="1.5860146097654747e-09" R="1.5860146097654747e-09" G1="1.5860146097654747e-09">1</b1>
+    <b2 G2="2.7920215455594006e-07" B="2.7920215455594006e-07" R="2.7920215455594006e-07" G1="2.7920215455594006e-07">1</b2>
+
+    <!-- 网络相关参数 -->
+    <PaddingDelta>48</PaddingDelta>
+
+    <!-- 颜色矫正相关参数 -->
+    <ChannelMeanISOThres>0</ChannelMeanISOThres>
+    <ColorThres>8000</ColorThres>
+
+    <!-- 配准工作位置参数 -->
+    <MatchInPreprocess>1</MatchInPreprocess>
+    <MatchSizeExpand>6</MatchSizeExpand>
+    <!-- 0: rawnr配准模式 -->
+    <!-- 1: pixelshift配准模式 -->
+    <!-- 2: pixelshift配准模式 -->
+    <!-- 3: 纯warp配准模式 -->
+    <MatchMode>0</MatchMode>
+    <InputBlend>0</InputBlend>
+    <OutputBlend>0</OutputBlend>
+
+    <!-- 分模型逻辑 -->
+    <!-- 根据iso = again*dgain*50来进行区分 -->
+    <!-- 根据静止运动确认最终模型-->
+    <ModelInfo>
+        <ISOStart>0</ISOStart>
+        <ISOEnd>30000</ISOEnd>
+        <ExpTimeStart>0</ExpTimeStart>
+        <ExpTimeEnd>10000</ExpTimeEnd>
+        <OBAdder>1</OBAdder>
+        <StaticModel>
+            <ModelName>fifthmfnr_148580.bin</ModelName>
+            <FrameNum>8</FrameNum>
+            <RunWidth>560</RunWidth>
+            <RunHegiht>560</RunHegiht>
+            <MannulSpace2depth>1</MannulSpace2depth>
+            <MannulDepth2space>0</MannulDepth2space>
+            <InputChannel>8</InputChannel>
+            <OutputChannel>1</OutputChannel>
+            <RunPattern>0</RunPattern>
+            <ImgFirst>1</ImgFirst>
+            <OutputMin>-1.2624645233154297</OutputMin>
+            <OutputMax>1.2624258995056152</OutputMax>
+            <ResMin>-0.31557479039999997</ResMin>
+            <ResMax>1.5023923236</ResMax>	
+            <StdCoff>1</StdCoff>
+            <Blacklevel>0</Blacklevel>
+            <UseChannelMean>1</UseChannelMean>
+            <lutCurveR lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveR>
+            <lutCurveG1 lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveG1>
+            <lutCurveG2 lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveG2>
+            <lutCurveB lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveB>
+        </StaticModel>
+        <MotionModel>
+            <ModelName>fifthmfnr_148580.bin</ModelName>
+            <FrameNum>8</FrameNum>
+            <RunWidth>560</RunWidth>
+            <RunHegiht>560</RunHegiht>
+            <MannulSpace2depth>1</MannulSpace2depth>
+            <MannulDepth2space>0</MannulDepth2space>
+            <InputChannel>8</InputChannel>
+            <OutputChannel>1</OutputChannel>
+            <RunPattern>0</RunPattern>
+            <ImgFirst>1</ImgFirst>
+            <OutputMin>-1.2624645233154297</OutputMin>
+            <OutputMax>1.2624258995056152</OutputMax>
+            <ResMin>-0.31557479039999997</ResMin>
+            <ResMax>1.5023923236</ResMax>	
+            <StdCoff>1</StdCoff>
+            <Blacklevel>0</Blacklevel>
+            <UseChannelMean>1</UseChannelMean>
+
+            <lutCurveR lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveR>
+            <lutCurveG1 lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveG1>
+            <lutCurveG2 lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveG2>
+            <lutCurveB lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveB>
+        </MotionModel>
+    </ModelInfo>
+    <ModelInfo>
+        <ISOStart>30000</ISOStart>
+        <ISOEnd>1360000</ISOEnd>
+        <ExpTimeStart>0</ExpTimeStart>
+        <ExpTimeEnd>10000</ExpTimeEnd>
+        <OBAdder>1</OBAdder>
+        <StaticModel>
+            <ModelName>groupaddhighdie3.bin</ModelName>
+            <FrameNum>8</FrameNum>
+            <RunWidth>560</RunWidth>
+            <RunHegiht>560</RunHegiht>
+            <MannulSpace2depth>1</MannulSpace2depth>
+            <MannulDepth2space>0</MannulDepth2space>
+            <InputChannel>8</InputChannel>
+            <OutputChannel>1</OutputChannel>
+            <RunPattern>0</RunPattern>
+            <ImgFirst>1</ImgFirst>
+            <OutputMin>-1.1936094760894775</OutputMin>
+            <OutputMax>1.193572998046875</OutputMax>
+            <ResMin>-0.31557479039999997</ResMin>
+            <ResMax>1.5023923236</ResMax>	
+            <StdCoff>1</StdCoff>
+            <Blacklevel>0</Blacklevel>
+            <UseChannelMean>1</UseChannelMean>
+            <lutCurveR lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveR>
+            <lutCurveG1 lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveG1>
+            <lutCurveG2 lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveG2>
+            <lutCurveB lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveB>
+        </StaticModel>
+        <MotionModel>
+            <ModelName>groupaddhighdie3.bin</ModelName>
+            <FrameNum>8</FrameNum>
+            <RunWidth>560</RunWidth>
+            <RunHegiht>560</RunHegiht>
+            <MannulSpace2depth>1</MannulSpace2depth>
+            <MannulDepth2space>0</MannulDepth2space>
+            <InputChannel>8</InputChannel>
+            <OutputChannel>1</OutputChannel>
+            <RunPattern>0</RunPattern>
+            <ImgFirst>1</ImgFirst>
+            <OutputMin>-1.1936094760894775</OutputMin>
+            <OutputMax>1.193572998046875</OutputMax>
+            <ResMin>-0.31557479039999997</ResMin>
+            <ResMax>1.5023923236</ResMax>	
+            <StdCoff>1</StdCoff>
+            <Blacklevel>0</Blacklevel>
+            <UseChannelMean>1</UseChannelMean>
+
+            <lutCurveR lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveR>
+            <lutCurveG1 lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveG1>
+            <lutCurveG2 lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveG2>
+            <lutCurveB lens="3" useLut="0">
+                <x>1000.000000, 1750.000000, 5000.000000</x>
+                <y>1000.000000, 1750.000000, 5000.000000</y>
+            </lutCurveB>
+        </MotionModel>
+    </ModelInfo>
+</MfainrFunctionConfig>

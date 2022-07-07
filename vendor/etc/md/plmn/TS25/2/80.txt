@@ -1,0 +1,3 @@
+28001,Cyta-Voda,CytaVoda
+28010,epic,epic
+28020,PrimeTel PLC,PrimeTel

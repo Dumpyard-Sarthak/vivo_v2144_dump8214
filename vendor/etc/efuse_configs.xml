@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes' ?>
+<projectItems>
+    <efuseItem project="PD2163" efuse_type="0"/>
+    <efuseItem project="PD2166" efuse_type="1"/>
+    <efuseItem project="PD2197" efuse_type="1"/>
+    <efuseItem project="PD2197C" efuse_type="1"/>
+</projectItems>

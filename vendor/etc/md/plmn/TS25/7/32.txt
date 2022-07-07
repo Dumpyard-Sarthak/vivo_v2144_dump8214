@@ -1,0 +1,6 @@
+732101,Claro,Claro
+732103,TIGO,TIGO
+732111,TIGO,TIGO
+732123,Movistar,Movistar
+732130,Avantel,Avantel
+732187,ETB,ETB

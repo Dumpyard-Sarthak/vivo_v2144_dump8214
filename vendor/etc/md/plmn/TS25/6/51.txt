@@ -1,0 +1,2 @@
+65101,Vodacom Lesotho,VODACOM
+65102,LS-ETL,ETL

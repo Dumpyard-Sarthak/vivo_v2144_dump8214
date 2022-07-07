@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AiFaceEnhanceConfig version="0.0.7.0">
+    <!-- 算法应用场景 -->
+    <WorkScence>0</WorkScence>
+    <FaceDetectOn>0</FaceDetectOn> <!--人脸检测是否内部做 0: 内部不计算; 1: 内部计算 -->
+    <SkinSegOn>0</SkinSegOn> <!--肤色分割是否内部做 0: 内部不计算; 1: 内部计算 -->
+    <HumanSegOn>1</HumanSegOn> <!--人像分割是否内部做 0: 内部不计算; 1: 内部计算 -->
+    <KeyPointOn>0</KeyPointOn> <!--关键点检测是否内部做 0: 内部不计算; 1: 内部计算 -->
+    <MaxFaceEnNum>60</MaxFaceEnNum> <!--最多支持的人脸个数,按需求为30 -->
+    <MinFaceEnNum>1</MinFaceEnNum> <!--最少支持的人脸个数，按需求为4 -->
+    <UseOptimizeCode>1</UseOptimizeCode> <!--是否使用优化代码，1表示使用，0表示不使用 -->
+    <TheadNum>4</TheadNum>
+    <BindingCoresMask>00001111</BindingCoresMask><!--绑大核 -->
+    
+    <!-- 网络选择，包括人像分割的模型和人像增强的模型，人像增强模型设定了三个iso段和三种尺寸的模型，每个iso段可以结合<FaceSrFunc>使用不同的逻辑；
+    HumanSeg:人像分割模型，FaceEnhance**：iso最小区间使用的模型；MidISOFace**：iso中间区间使用的模型；HighISOFace**：iso最大区间使用的模型；
+    HumanSeg:人像分割，**Model：尺寸最小的模型；**MidModel：尺寸中等的模型；**BigModel：尺寸最大的模型-->
+    <ModelPath>        
+        <!--参数use根据需求设置，1表示使模型生效，0表示不生效-->
+        <!--参数mode根据需求设置，三星高通：1表示高功耗，2表示低功耗；mtk: 1\2低功耗，-1（不设置）高功耗，
+        目前高通和三星低功耗（功耗模式对性能没影响）；mtk采用高功耗（影响性能）-->
+        <HumanSeg use="1" space2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="640" inh="640" power="-1">seg_640_mtkdx1_v0002.bin</HumanSeg>
+        <FaceEnhanceModel use="0" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="256" inh="256" power="-1">supergp_256_mtk_v0002.bin</FaceEnhanceModel>
+        <FaceEnhanceMidModel use="1" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="512" inh="512" power="-1">supergp_512_mtkdx1_v0003.bin</FaceEnhanceMidModel>
+        <FaceEnhanceBigModel use="0" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="1024" inh="1024" power="-1">supergp_1024_mtkdx1_v0003.bin</FaceEnhanceBigModel>
+        <MidISOFaceEnhanceModel use="0" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="256" inh="256" power="-1">supergp_256_mtk_v0002.bin</MidISOFaceEnhanceModel>
+        <MidISOFaceEnhanceMidModel use="1" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="512" inh="512" power="-1">supergp_512_mtkdx1_v0003.bin</MidISOFaceEnhanceMidModel>
+        <MidISOFaceEnhanceBigModel use="1" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="1024" inh="1024" power="-1">supergp_1024_mtkdx1_v0003.bin</MidISOFaceEnhanceBigModel>
+        <HighISOFaceEnhanceModel use="0" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="256" inh="256" power="-1">supergp_256_mtk_v0002.bin</HighISOFaceEnhanceModel>
+        <HighISOFaceEnhanceMidModel use="1" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="512" inh="512" power="-1">supergp_512_mtkdx1_v0003.bin</HighISOFaceEnhanceMidModel>
+        <HighISOFaceEnhanceBigModel use="1" sapce2depth="0" range="0" resi="0" resm="-1" engine="10" device="4" inw="1024" inh="1024" power="-1">supergp_1024_mtkdx1_v0003.bin</HighISOFaceEnhanceBigModel>
+    </ModelPath>
+
+    <PreSkinSoftenAdParam use="0"><!--输入的人脸是否做（预）处理——锐化， use:1表示使用，0表示不使用-->
+        <sharpenMode>0</sharpenMode>
+        <sharpenLevel>0</sharpenLevel>
+        <sharpenEyebrowLevel>30</sharpenEyebrowLevel>
+    </PreSkinSoftenAdParam>
+    <PostSkinSoftenAdParam use="0"> <!--输入的人脸是否做（后）处理——锐化（只眉毛区域）， use:1表示使用，0表示不使用-->
+        <sharpenMode>0</sharpenMode>
+        <sharpenLevel>0</sharpenLevel>
+        <!-- 眉毛锐化-->
+        <sharpenEyebrowLevel>30</sharpenEyebrowLevel>
+    </PostSkinSoftenAdParam>
+    <FullSizeSkinSoftenAdParam use="0"> <!--低iso增强不生效时，输入的人脸是否做（后）处理——锐化（只五官区域）， use:1表示使用，0表示不使用-->
+        <sharpenMode>0</sharpenMode>
+        <sharpenLevel>0</sharpenLevel>
+        <!-- 五官锐化-->
+        <sharpenEyebrowLevel>30</sharpenEyebrowLevel> 
+    </FullSizeSkinSoftenAdParam>
+
+    <FaceComprehension>
+        <YawVarThresh>100</YawVarThresh> <!--方差过大时跳过改张图-->
+        <!--支持的人脸角度，当检测到人脸角度不在此范围时，不做增强-->
+        <!--roll(旋转):0-360, yaw（左右）:-90-90, pitch（上下）:-90-90-->
+        <YawMinAngle>-65</YawMinAngle>
+        <YawMaxAngle>65</YawMaxAngle>
+        <PitchMinAngle>-80</PitchMinAngle>
+        <PitchMaxAngle>80</PitchMaxAngle>
+    </FaceComprehension>
+
+    <FaceSrFunc>
+        <!--三个iso段：[LowISOThres, MidLowISOThred], [MidLowISOThred, MidHighISOThred], [MidHighISOThred, HighISOThred]-->
+        <LowISOThresh>0</LowISOThresh>
+        <MidLowISOThresh>200</MidLowISOThresh>
+        <MidHighISOThresh>2560</MidHighISOThresh>
+        <HighISOThresh>256000</HighISOThresh>
+        <BlendRate>20</BlendRate>
+        <!--根据人脸检测的框，重新调整人脸框，-->
+        <ExtendRateX>44</ExtendRateX>
+        <ExtendRateY>55</ExtendRateY>
+        <FaceIouThred>0.1</FaceIouThred>
+        <!--根据需求可调整，不同的iso段，大中小模型生效的尺寸不同-->
+        <FaceEnhanceModelMaxFaceSize>90</FaceEnhanceModelMaxFaceSize>
+        <FaceEnhanceModelMinFaceSize>10</FaceEnhanceModelMinFaceSize>
+        <FaceEnhanceMidModelMaxFaceSize>900</FaceEnhanceMidModelMaxFaceSize>
+        <FaceEnhanceMidModelMinFaceSize>90</FaceEnhanceMidModelMinFaceSize>
+        <FaceEnhanceBigModelMaxFaceSize>16000</FaceEnhanceBigModelMaxFaceSize>
+        <FaceEnhanceBigModelMinFaceSize>900</FaceEnhanceBigModelMinFaceSize>
+
+        <MidISOFaceEnhanceModelMaxFaceSize>90</MidISOFaceEnhanceModelMaxFaceSize>
+        <MidISOFaceEnhanceModelMinFaceSize>10</MidISOFaceEnhanceModelMinFaceSize>
+        <MidISOFaceEnhanceMidModelMaxFaceSize>900</MidISOFaceEnhanceMidModelMaxFaceSize>
+        <MidISOFaceEnhanceMidModelMinFaceSize>90</MidISOFaceEnhanceMidModelMinFaceSize>
+        <MidISOFaceEnhanceBigModelMaxFaceSize>16000</MidISOFaceEnhanceBigModelMaxFaceSize>
+        <MidISOFaceEnhanceBigModelMinFaceSize>900</MidISOFaceEnhanceBigModelMinFaceSize>
+
+        <HighISOFaceEnhanceModelMaxFaceSize>90</HighISOFaceEnhanceModelMaxFaceSize>
+        <HighISOFaceEnhanceModelMinFaceSize>10</HighISOFaceEnhanceModelMinFaceSize>
+        <HighISOFaceEnhanceMidModelMaxFaceSize>900</HighISOFaceEnhanceMidModelMaxFaceSize>
+        <HighISOFaceEnhanceMidModelMinFaceSize>90</HighISOFaceEnhanceMidModelMinFaceSize>
+        <HighISOFaceEnhanceBigModelMaxFaceSize>16000</HighISOFaceEnhanceBigModelMaxFaceSize>
+        <HighISOFaceEnhanceBigModelMinFaceSize>900</HighISOFaceEnhanceBigModelMinFaceSize>
+        <UpOffset>0.2</UpOffset>
+    </FaceSrFunc>
+
+</AiFaceEnhanceConfig>

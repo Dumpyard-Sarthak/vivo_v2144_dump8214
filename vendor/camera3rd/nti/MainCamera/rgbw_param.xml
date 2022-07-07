@@ -1,0 +1,33 @@
+<RGBW_Config version="0.0.19.0">
+    <FOLLOW_RGB description="tunning params of follow RGB.">
+        <degree description="fusion strength.">
+            <R description="R channel. type:u4, range:[0,8]">3</R>
+            <G1 description="G1 channel. type:u4, range:[0,8]">3</G1>
+            <G2 description="G2 channel. type:u4, range:[0,8]">3</G2>
+            <B description="B channel. type:u4, range:[0,8]">3</B>
+        </degree>
+        <dNoise description="denoise param.">
+            <R description="R channel. type:u8, range:[0,255]">0</R>
+            <G1 description="G1 channel. type:u8, range:[0,255]">0</G1>
+            <G2 description="G2 channel. type:u8, range:[0,255]">0</G2>
+            <B description="B channel. type:u8, range:[0,255]">0</B>
+        </dNoise>
+        <oNode description="overexposure protection param. type:u10, range:[0,1022]">1000</oNode>
+        <regreThresh description="high light edge fusion param. type:float, range:[0,1]">0.20</regreThresh>
+        <regreNode description="high light edge fusion param. type:u10, range:[0,1022]">300</regreNode>
+    </FOLLOW_RGB>
+    <FOLLOW_W description="tunning params of follow W.">
+        <degree description="fusion strength.">
+            <R description="R channel. type:u4, range:[0,8]">3</R>
+            <G1 description="G1 channel. type:u4, range:[0,8]">3</G1>
+            <G2 description="G2 channel. type:u4, range:[0,8]">3</G2>
+            <B description="B channel. type:u4, range:[0,8]">3</B>
+        </degree>
+        <dNoise description="denoise param.">
+            <R description="R channel. type:u8, range:[0,255]">0</R>
+            <G1 description="G1 channel. type:u8, range:[0,255]">0</G1>
+            <G2 description="G2 channel. type:u8, range:[0,255]">0</G2>
+            <B description="B channel. type:u8, range:[0,255]">0</B>
+        </dNoise>
+    </FOLLOW_W>
+</RGBW_Config>

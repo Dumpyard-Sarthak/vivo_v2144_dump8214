@@ -1,0 +1,7 @@
+45601,Cellcard,Cellcard
+45602,Smart,Smart
+45604,qb,qb
+45605,Smart,Smart
+45606,Smart,Smart
+45608,Metfone,Metfone
+45611,KH SEATEL,SEATEL

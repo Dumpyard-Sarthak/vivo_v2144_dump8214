@@ -1,0 +1,77 @@
+{
+    "hdrMotion": {
+        "ainrCfg": {
+            "shortGainThrold":	1000,
+            "delevThrold":	-1.5
+        }
+    },
+    "HDR": {
+        "ainrCfg": {
+            "ISOThrold":	100000
+        }
+    },
+    "supernight": {
+        "ainrCfg": {
+            "Enable":	1
+        },
+		"mfainrCfg": {
+		    "Enable":	0,
+            "ShortGainISOThrold":	10000,
+			"InputFrameMax":  10,
+			"InputFrameMin":  5
+        }
+    },
+    "fastnight": {
+        "ainrCfg": {
+            "Enable":	0
+        }
+    },
+    "HDRLite": {
+        "ainrCfg": {
+            "shortGainThrold":	32,
+            "darkBoostGainRatioThrold":	4
+        }
+    },
+    "LLHDR": {
+        "ainrCfg": {
+            "shortGainThrold":	32,
+            "darkBoostGainRatioThrold":	6
+        }
+    },
+    "HDRoff": {
+        "ainrCfg": {
+            "shortGainThrold":	32,
+            "darkBoostGainRatioThrold":	6
+        }
+    },
+    "HDRsport": {
+        "mfnrMode": {
+            "isoBoundary0":	600,
+            "isoBoundary1":	2000,
+            "motionLevelBoundary":	3
+        }
+    },
+    "prebps": {
+        "ModeCfg": {
+            "expTimeThrold":	500,
+            "shortgainThrold":	120
+        }
+    },
+    "portraitToneMap": {
+        "ToneCfg": {
+            "outlineEnable": 0,
+            "portraitEnable":	0
+        }
+    },
+    "skySegment": {
+        "segCfg": {
+            "Enable": 1
+        }
+    },
+    "mfnr": {
+        "evmmDenoiseMode": 1
+    },
+    "cac": {
+        "Enable": 0
+    }
+}

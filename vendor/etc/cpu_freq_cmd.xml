@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- cpu overload test platform: MTK6983-->
+
+<cpu_freq>
+
+		<!-- core="X", X is the second param of "AT+BK_CPU_FREQ=1,X,145600,145600", which is the number of cpu core -->
+		<!-- "%freq" is the frequence needed to be set; "path_min" is the command to set lower limit; "path_max" upper limit; "&gt;" equals to ">" -->
+		<cmdinfo core="0" path_min = "echo %freq &gt; /sys/devices/system/cpu/cpufreq/policy0/scaling_min_freq" path_max = "echo %freq &gt; /sys/devices/system/cpu/cpufreq/policy0/scaling_max_freq"/>
+		<cmdinfo core="4" path_min = "echo %freq &gt; /sys/devices/system/cpu/cpufreq/policy4/scaling_min_freq" path_max = "echo %freq &gt; /sys/devices/system/cpu/cpufreq/policy4/scaling_max_freq"/>
+		<cmdinfo core="7" path_min = "echo %freq &gt; /sys/devices/system/cpu/cpufreq/policy7/scaling_min_freq" path_max = "echo %freq &gt; /sys/devices/system/cpu/cpufreq/policy7/scaling_max_freq"/>
+		<!-- reserved -->
+		<cmdinfo core="1" path_min = "" path_max = ""/>
+		<cmdinfo core="2" path_min = "" path_max = ""/>
+		<cmdinfo core="3" path_min = "" path_max = ""/>
+		<cmdinfo core="5" path_min = "" path_max = ""/>
+		<cmdinfo core="6" path_min = "" path_max = ""/>
+		
+</cpu_freq>

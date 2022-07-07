@@ -1,0 +1,7 @@
+64101,Airtel,Airtel
+64104,UG TANG,TANG
+64110,MTN-UGANDA,MTN-UG
+64111,Uganda Telecom,UTL
+64114,Africell Uganda,AUL
+64118,Suretelcom,suretel
+64122,Airtel,Airtel

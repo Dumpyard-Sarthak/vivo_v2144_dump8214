@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Calib_Data>
+  <module name="version">
+    <version>20210527</version>
+  </module>
+  <module name="sr">
+    <gain>128</gain>
+  </module> 
+  <module name="nr">
+    <display name="display">
+		<low>24,10,10,10,10,10</low>
+		<mid>24,10,10,10,10,10</mid>
+		<high>24,10,10,10,10,10</high>
+	</display>
+  </module> 
+  <module name="sdr2hdr">
+    <cce name="cce">
+        <low_gain>48</low_gain>
+        <mid_gain>64</mid_gain>
+        <high_gain>64</high_gain>
+    </cce>
+    <color name="main0">
+	  <brightness>128</brightness>
+	  <saturation>576</saturation>
+	  <contrast>512</contrast>
+	  <skin_hh>128</skin_hh>
+	  <skin_hs>512</skin_hs>
+    </color>
+    <color name="main1">
+	  <brightness>128</brightness>
+	  <saturation>512</saturation>
+	  <contrast>512</contrast>
+	  <skin_hh>128</skin_hh>
+	  <skin_hs>512</skin_hs>
+    </color>
+    <color name="main2">
+	  <brightness>128</brightness>
+	  <saturation>576</saturation>
+	  <contrast>512</contrast>
+	  <skin_hh>128</skin_hh>
+	  <skin_hs>512</skin_hs>
+    </color>
+    <color name="lite">
+	  <brightness>128</brightness>
+	  <saturation>512</saturation>
+	  <contrast>512</contrast>
+	  <skin_hh>128</skin_hh>
+	  <skin_hs>512</skin_hs>
+    </color>
+    <sdr2hdr name="sdr2hdr">
+	  <gain>128</gain>
+	  <ble_gain>32</ble_gain>
+    </sdr2hdr>
+    <curve name="00">
+	<dark>0,16,30,45,62,79,96,115,134,151,166,183,198,209,221,233,243,255</dark>
+	<normal>0,15,27,37,50,65,82,104,124,141,158,174,189,201,215,230,243,255</normal>
+	<light>0,15,25,31,40,54,68,86,102,120,136,153,171,191,209,226,241,255</light>
+    </curve>
+    <curve name="01">
+	<dark>0,16,30,45,62,79,96,115,134,151,166,183,198,209,221,233,243,255</dark>
+	<normal>0,15,27,37,50,65,82,104,124,141,158,174,189,201,215,230,243,255</normal>
+	<light>0,15,25,31,40,54,68,86,102,120,136,153,171,191,209,226,241,255</light>
+    </curve>
+    <curve name="02">
+	<dark>0,16,30,45,62,79,96,115,134,151,166,183,198,209,221,233,243,255</dark>
+	<normal>0,15,27,37,50,65,82,104,124,141,158,174,189,201,215,230,243,255</normal>
+	<light>0,15,25,31,40,54,68,86,102,120,136,153,171,191,209,226,241,255</light>
+    </curve>
+  </module> 
+</Calib_Data>

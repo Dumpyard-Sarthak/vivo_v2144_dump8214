@@ -1,0 +1,3 @@
+22001,Telenor SRB,Telenor
+22003,mt:s,MTS
+22005,Vip SRB,Vip SRB
