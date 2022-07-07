@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ICON Version ="3">
+	<weatherEnabled>true</weatherEnabled>
+	<degreetextsize>34</degreetextsize>
+	<degreetextcolor>16777215</degreetextcolor>
+	<weatherleftoffset>0</weatherleftoffset>
+	<weathertopoffset>0</weathertopoffset>
+	<temperatureleftoffset>11</temperatureleftoffset>
+	<temperaturetopoffset>12</temperaturetopoffset>
+	<degreeleftoffset>11</degreeleftoffset>
+	<degreetopoffset>12</degreetopoffset>
+	<background>dynamic_weather_bg.png</background>
+</ICON>

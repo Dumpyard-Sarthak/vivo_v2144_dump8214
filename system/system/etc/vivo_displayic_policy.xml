@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display_ic_white_list>
+    <enableAll>true</enableAll>
+    <!--control_by_app：1表示usecase切换又应用控制，框架不会自动切换其usecase-->
+    <!--ui_video_split：ui和video是否能分离-->
+
+    <!--内置相机-->
+    <package name="com.android.camera">
+        <activity name="com.android.camera/com.android.camera.CameraActivity">
+            <item name="control_by_app">1</item>
+            <item name="memc">2</item>
+            <item name="sdr2hdr">0</item>
+            <item name="nr">5</item>
+            <item name="aisr">0</item>
+        </activity>
+    </package>
+
+	<!--Socket 自动化测试-->
+	<package name="com.vivo.socketboardtest">
+		<activity name="com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.VideoActivity">
+			<item name="control_by_app">1</item>
+		</activity>
+		<activity name="com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.PictureActivity">
+			<item name="control_by_app">1</item>
+		</activity>
+		<activity name="com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.CameraActivity">
+			<item name="control_by_app">1</item>
+		</activity>
+		<activity name="com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.MainAppActivity">
+			<item name="control_by_app">1</item>
+		</activity>
+	</package>
+
+    <!--相机-->
+    <package name="com.vivo.engineercamera">
+        <activity name="com.vivo.engineercamera/com.android.camera.CameraActivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+    <package name="com.demo.vcameraengine">
+        <activity name="com.demo.vcameraengine/com.demo.vcameraengine.MainActivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+    <!--工模-->
+    <package name="com.iqoo.engineermode">
+        <activity name="com.iqoo.engineermode/com.iqoo.engineermode.VideoPlayerAcitivity">
+            <item name="control_by_app">1</item>
+        </activity>
+    </package>
+
+</display_ic_white_list>

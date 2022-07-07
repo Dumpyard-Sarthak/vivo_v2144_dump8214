@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ICON Version ="3">
+	<weatherEnabled>true</weatherEnabled>
+	<degreetextsize>93</degreetextsize>
+	<degreetextcolor>16777215</degreetextcolor>
+	<degreetextcolorcloudy>16777215</degreetextcolorcloudy>
+	<degreetextcolorfog>16777215</degreetextcolorfog>
+	<degreetextcolorhaze>16777215</degreetextcolorhaze>
+	<degreetextcolorovercast>16777215</degreetextcolorovercast>
+	<degreetextcolorrain>16777215</degreetextcolorrain>
+	<degreetextcolorsnow>16777215</degreetextcolorsnow>
+	<degreetextcolorsun>16777215</degreetextcolorsun>
+	<degreetextcolorthunder>16777215</degreetextcolorthunder>
+	<weatherleftoffset>0</weatherleftoffset>
+	<weathertopoffset>0</weathertopoffset>
+	<temperatureleftoffset>0</temperatureleftoffset>
+	<temperaturetopoffset>-14</temperaturetopoffset>
+	<degreeleftoffset>0</degreeleftoffset>
+	<degreetopoffset>0</degreetopoffset>
+	<longdegreetextsize>95</longdegreetextsize>
+	<background>dynamic_weather_bg.png</background>
+	<version>3</version>
+	<tempnumtextsize>82</tempnumtextsize>
+	<tempoctextsize>52</tempoctextsize>
+	<tempnumfontweight>280</tempnumfontweight>
+	<tempocfontweight>280</tempocfontweight>
+	<tempnumandcoffset>-2</tempnumandcoffset>
+	<tempctopoffset>4</tempctopoffset>
+	<tempoctopdelta>2</tempoctopdelta>
+</ICON>

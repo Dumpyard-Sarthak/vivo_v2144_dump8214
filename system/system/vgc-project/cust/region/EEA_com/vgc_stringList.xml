@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+    <list name="vgc_region_limit_list">
+        <item value="DE"/>
+        <item value="IT"/>
+        <item value="ES"/>
+        <item value="FR"/>
+        <item value="PL"/>
+        <item value="CZ"/>
+        <item value="RO"/>
+        <item value="AT"/>
+        <item value="PT"/>
+    </list>
+    <!-- auto add vivo config -->
+</config>

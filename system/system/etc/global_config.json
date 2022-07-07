@@ -1,0 +1,1664 @@
+{
+    "config": [
+        {
+            "phone": "PD2103F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "106",
+                "screenBottomCorner": "114"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2112",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2112F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2107F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2118",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2111",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2111F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2102",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2102F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2120",
+            "version": "3000",
+            "switch": ["0", "1", "0", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2123",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "110"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2121",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2131",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2114",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2130",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "106",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2133",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "96",
+                "screenBottomCorner": "96"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2135",
+            "version": "3000",
+            "switch": ["0", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2132",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2134",
+            "version": "3000",
+            "switch": ["0", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2133F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "95",
+                "screenBottomCorner": "95"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2135F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "0", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2136",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "96",
+                "screenBottomCorner": "96"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2141",
+            "version": "3000",
+            "switch": ["1", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "81",
+                "screenBottomCorner": "81"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2136F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "96",
+                "screenBottomCorner": "96"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2145",
+            "version": "3000",
+            "switch": ["0", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2131F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2149",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2145F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "0", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2148",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2148F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2150F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2104F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2154",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "83",
+                "screenBottomCorner": "83"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2156",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2154F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "83",
+                "screenBottomCorner": "83"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2156F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2159F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2115",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "99",
+                "screenBottomCorner": "93"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2164",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "111",
+                "screenBottomCorner": "111"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2157",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2163",
+            "version": "3000",
+            "switch": ["0", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2163F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "0", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2162",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2166F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2166G",
+            "version": "4000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2197D",
+            "version": "4000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2171",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "82",
+                "screenBottomCorner": "82"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2167F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2165",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2165F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "111",
+                "screenBottomCorner": "111"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2170",
+            "version": "3000",
+            "switch": ["0", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "TD2103",
+            "version": "3000",
+            "switch": ["1", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2172F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "0", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2178",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2172",
+            "version": "3000",
+            "switch": ["1", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2185",
+            "version": "3000",
+            "switch": ["0", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2185F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "0", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "110",
+                "screenBottomCorner": "105"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2186",
+            "version": "3000",
+            "switch": ["0", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2188",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2195",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2196",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2195F_EX",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2183F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "0", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2183",
+            "version": "3000",
+            "switch": ["0", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2190",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2194",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2193IF_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2193GF_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2193HF_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2193F_EX",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "TD2107",
+            "version": "3000",
+            "switch": ["1", "1", "2", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2194F_EX",
+            "version": "3000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2180",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2199I",
+            "version": "4000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "90",
+                "screenBottomCorner": "90"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2199H",
+            "version": "4000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "90",
+                "screenBottomCorner": "90"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2199G",
+            "version": "4000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "90",
+                "screenBottomCorner": "90"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2199",
+            "version": "4000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "90",
+                "screenBottomCorner": "90"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }, {
+            "phone": "PD2199F_EX_SC",
+            "version": "4000",
+            "switch": ["1", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        },{
+            "phone": "PD2147F_EX",
+            "version": "3000",
+            "switch": ["0", "1", "1", "0", "1"],
+            "settingGesture": {
+                "animationsGesture": ["-1000"]
+            },
+            "settingUsb": {
+                "animationsUsb": ["-1000"]
+            },
+            "settingLightEffect": {
+                "animationsLightEffect": ["-1000"],
+                "screenTopCorner": "105",
+                "screenBottomCorner": "106"
+            },
+            "settingMonsterUI": {
+                "animationsMonsterUI": ["-1000"]
+            },
+            "settingFade": {
+                "animationsFade": ["-1000"]
+            }
+        }
+    ]
+}

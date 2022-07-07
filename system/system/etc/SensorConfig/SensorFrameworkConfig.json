@@ -1,0 +1,16 @@
+{
+ "EngineModeRejectReduceSar": 1,
+ "UnderLightSupportHardwareBrightnessDelta": 1,
+ "UnderDisplayLight": 1,
+ "DriverProxTempCali": 1,
+ "MaxBrightness": 2047,
+ "MultilevelBright": 1,
+ "ScreenOnProxTempCali": 1,
+ "ScreenOnWaitLux": 300,
+ "NotifyLcmBrightnessToDriverList": 1,
+ "IsUseNitBrightnessBar": 1,
+ "IgnoreAlsRawData": 1,
+ "MtkSupportDsiCommand":1,
+ "UserModifyVer": 2,
+ "DimmingSpeed": 60
+}

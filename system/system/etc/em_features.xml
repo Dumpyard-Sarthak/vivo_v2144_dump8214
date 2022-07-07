@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <boolean name="linear_motor_support">true</boolean>
+    <boolean name="light_sensor_angle">true</boolean>
+    <boolean name="under_infrared_support">true</boolean>
+    <boolean name="third_under_infrared_light">true</boolean>
+    <boolean name="long_wave_infrared_support">true</boolean>
+    <boolean name="cct_support">true</boolean>
+    <boolean name="camera_pdaf">true</boolean>
+    <boolean name="nova_display_ic_support">true</boolean>
+    <boolean name="sim_test_support">true</boolean>
+    <boolean name="smart_spearker_amplifier_cali_support">true</boolean>
+    <boolean name="lcm_light_sensor">true</boolean>
+    <boolean name="gyroscope_support">true</boolean>
+    <boolean name="laser_TMF8805_support">true</boolean>
+    <boolean name="front_camera_under_screen">true</boolean>
+    <boolean name="sub_smart_spearker_amplifier_cali_support">true</boolean>
+    <boolean name="high_rate_shadow_support">true</boolean>
+    <boolean name="camera_ois_test">true</boolean>
+    <boolean name="sub_echo_support">true</boolean>
+    <boolean name="speaker_resdetect_support">true</boolean>
+    <string name="camera_type">back[Master,Wide,Tele]front[Master]</string>
+    <boolean name="doule_flash_light">true</boolean>
+    <boolean name="flash_light_cali_support">true</boolean>
+    <boolean name="multi_speaker_receiver_support">true</boolean>
+    <boolean name="rear_main_wide_tele_unsupport">true</boolean>
+    <boolean name="fm_support">false</boolean>
+    <boolean name="reduce_sar_test">true</boolean>
+    <boolean name="double_battery">true</boolean>
+</resources>

@@ -1,0 +1,6 @@
+<AppGroupIcon>
+    <dimen name="app_group_display_size">136px</dimen>
+    <dimen name="icon_display_size">128px</dimen>
+    <dimen name="app_group_icon_display_size">50px</dimen>
+    <dimen name="app_group_icon_back_plane_size">78px</dimen>
+</AppGroupIcon>

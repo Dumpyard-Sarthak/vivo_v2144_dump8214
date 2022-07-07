@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu version="1.0">
+    <module name="gf9578" type="optical">
+        <item name="Spi" require="32549" extra="0" loop="1"/>
+    </module>
+</menu>

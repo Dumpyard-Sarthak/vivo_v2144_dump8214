@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.system_ext.brand=vivo
+ro.product.system_ext.device=mssi_64_cn_armv82
+ro.product.system_ext.manufacturer=vivo
+ro.product.system_ext.model=vivo V2144
+ro.product.system_ext.name=sys_mssi_64_cn_armv82
+ro.system_ext.build.date=Mon Jun 13 22:43:33 CST 2022
+ro.system_ext.build.date.utc=1655131413
+ro.system_ext.build.fingerprint=vivo/V2144/V2144:13/TP1A.220414.003/compiler06132243:user/release-keys
+ro.system_ext.build.id=TP1A.220414.003
+ro.system_ext.build.tags=release-keys
+ro.system_ext.build.type=user
+ro.system_ext.build.version.incremental=eng.compil.20220613.224522
+ro.system_ext.build.version.release=13
+ro.system_ext.build.version.release_or_codename=13
+ro.system_ext.build.version.sdk=32
+####################################
+# from variable PRODUCT_SYSTEM_EXT_PROPERTIES
+####################################
+# end of file

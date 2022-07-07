@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ICONSIZE>
+	<width>52</width>
+	<height>52</height>
+	<calendar>false</calendar>
+	<leftoffset>0</leftoffset>
+	<topoffset>0</topoffset>
+	<foldericonsize>46</foldericonsize>
+	<calendartweek>true</calendartweek>
+	<weektextsize>14</weektextsize>
+	<weektextcolor>0</weektextcolor>
+	<weekleftoffset>0</weekleftoffset>
+	<weektopoffset>-300</weektopoffset>
+	<calendarmonth>true</calendarmonth>
+	<monthtextsize>90</monthtextsize>
+	<monthtextcolor>16749098</monthtextcolor>
+	<monthtextshadowcolor>0</monthtextshadowcolor>
+	<monthtextshadowy>0</monthtextshadowy>
+	<monthleftoffset>0</monthleftoffset>
+	<monthtopoffset>-30</monthtopoffset>
+  <version>1</version>
+  <foldericonwidth>42</foldericonwidth>
+  <foldericonheight>42</foldericonheight>
+  <folderpreviewcolumn>3</folderpreviewcolumn>
+  <folderpreviewrow>3</folderpreviewrow>
+  <folderpreviewpadding>0</folderpreviewpadding>
+  <supporticonraduischange>1</supporticonraduischange>
+  <iconsneedredraw>1</iconsneedredraw>
+  <variableiconradiusthemenum>1</variableiconradiusthemenum>
+  <defaultvariableiconradius>66</defaultvariableiconradius>
+  <variableiconminradius>12</variableiconminradius>
+  <variableiconmaxradius>66</variableiconmaxradius>
+  <iconstylepreview>0,1,2,3,4,5</iconstylepreview>
+  <roundiconradius>66</roundiconradius>
+  <secoundtvariableiconradius>44</secoundtvariableiconradius>
+  <thirdvariableiconradius>58</thirdvariableiconradius>
+  <fourthvariableiconradius>50</fourthvariableiconradius>
+  <shape>1</shape>
+  <originostheme>1</originostheme>
+</ICONSIZE>

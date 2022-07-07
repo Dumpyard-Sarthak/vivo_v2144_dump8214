@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<favorites xmlns:launcher="http://schemas.android.com/apk/res/com.bbk.launcher2">
+	<AppIconAnim launcher:packageName="com.android.dialer" launcher:frameNum="30"/>
+	<AppIconAnim launcher:packageName="com.android.mms" launcher:frameNum="20"/>
+	<AppIconAnim launcher:packageName="com.vivo.Tips" launcher:frameNum="87"/>
+	<AppIconAnim launcher:packageName="com.vivo.gallery" launcher:frameNum="0"/>
+	<AppIconAnim launcher:packageName="com.android.filemanager" launcher:frameNum="0"/>
+	<AppIconAnim launcher:packageName="com.vivo.notes" launcher:frameNum="0"/>
+	<AppIconAnim launcher:packageName="com.bbk.calendar" launcher:frameNum="0"/>
+	<AppIconAnim launcher:packageName="com.android.deskclock" launcher:frameNum="0"/>
+	<AppIconAnim launcher:packageName="com.vivo.vivoconsole" launcher:frameNum="0"/>
+</favorites>

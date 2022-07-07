@@ -1,0 +1,1 @@
+root=/system/vgc-project/cust/region/EEA_com

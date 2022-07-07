@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ICON Version ="3">
+    <enableClock>true</enableClock>
+    <centerleftoffset>-4</centerleftoffset>
+    <centertopoffset>-85</centertopoffset>
+    <hourleftoffset>-6</hourleftoffset>
+    <hourtopoffset>-24</hourtopoffset>
+    <minleftoffset>-48</minleftoffset>
+    <mintopoffset>-72</mintopoffset>
+</ICON>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<display_ic_white_list>
+    <!--vivo camera-->
+    <package>SurfaceView - com.android.camera/com.android.camera.CameraActivity#0</package>
+    <!--vivo photo-->
+    <package>SurfaceView - com.vivo.gallery/com.android.gallery3d.vivo.GalleryTabActivity#1</package>
+    <package>SurfaceView - com.vivo.gallery/com.android.gallery3d.vivo.NewPageActivity#1</package>
+    <package>SurfaceView - com.vivo.gallery/com.android.gallery3d.app.Gallery#1</package>	
+    <!--vivo video player-->
+    <package>SurfaceView - com.android.VideoPlayer/com.vivo.video.local.localplayer.LocalInnerPlayerActivity#1</package>
+    <package>SurfaceView - com.android.VideoPlayer/com.vivo.video.local.localplayer.LocalInnerPlayerActivity#0</package>
+    <package>SurfaceView - com.android.VideoPlayer/com.vivo.video.longvideo.ui.LongVideoDetailActivity#0</package>
+    <!--tencent-->
+    <package>SurfaceView - com.tencent.qqlive/com.tencent.qqlive.ona.activity.VideoDetailActivity#0</package>
+    <package>SurfaceView - com.tencent.mm/com.tencent.mm.plugin.voip.ui.VideoActivity#0</package>
+    <package>SurfaceView - com.tencent.now/com.tencent.now.app.videoroom.RoomActivity#0</package>
+    <package>com.tencent.mm/com.tencent.mm.ui.chatting.gallery.ImageGalleryUI#0</package>
+    <package>com.tencent.mm/com.tencent.mm.plugin.sns.ui.SnsOnlineVideoActivity#0</package>
+    <!--youku-->
+    <package>SurfaceView - com.youku.phone/com.youku.ui.activity.DetailActivity#0</package>
+    <!--aiqiyi-->
+    <package>SurfaceView - com.qiyi.video/org.iqiyi.video.activity.PlayerActivity#0</package>
+    <!--tencent.qqsports-->
+    <package>SurfaceView - com.tencent.qqsports/com.tencent.qqsports.matchdetail.MatchDetailExActivity#0</package>
+    <package>SurfaceView - com.tencent.qqsports/com.tencent.qqsports.show.ShowDetailActivity#0</package>
+    <!--bili-->	
+    <package>SurfaceView - tv.danmaku.bili/tv.danmaku.bili.ui.video.VideoDetailsActivity#0</package>
+    <package>SurfaceView - tv.danmaku.bili/tv.danmaku.bili.ui.video.VideoDetailsActivity#1</package>
+    <package>SurfaceView - tv.danmaku.bili/com.bilibili.bililive.room.ui.roomv3.LiveRoomActivityV3#0</package>
+    <package>SurfaceView - tv.danmaku.bili/com.bilibili.bangumi.ui.page.detail.BangumiDetailActivityV3#0</package>
+    <!--sohuvideo-->
+    <package>SurfaceView - com.sohu.sohuvideo/com.sohu.sohuvideo.mvp.ui.activity.VideoDetailActivity#0</package>
+    <!--VLC-->
+    <package>SurfaceView - org.videolan.vlc/org.videolan.vlc.gui.video.VideoPlayerActivity#0</package>
+    <!--hotstar-->
+    <package>SurfaceView - in.startv.hotstar/in.startv.hotstar.rocky.watchpage.HSWatchPageActivity#0</package>
+    <!--netflix-->
+    <package>SurfaceView - com.netflix.mediaclient/o.QR#0</package>
+    <package>SurfaceView - com.netflix.mediaclient/o.VR#0</package>
+    <package>SurfaceView - com.netflix.mediaclient/com.netflix.mediaclient.ui.player.PlayerActivity#0</package>
+    <!--youtube-->
+    <package>SurfaceView - com.google.android.youtube/com.google.android.apps.youtube.app.WatchWhileActivity#0</package>
+    <!--umeeting-->
+    <package>SurfaceView - com.systec.umeeting/com.zipow.videobox.ConfActivityNormal#1</package>
+    <!--tencent.wemeet-->
+    <package>com.tencent.wemeet.app/com.tencent.wemeet.sdk.meeting.inmeeting.InMeetingActivity#1</package>
+    <!--alibaba rimet-->
+    <package>com.alibaba.android.rimet/com.alibaba.android.teleconf.mozi.activity.TeleVideoConfActivity#0</package>
+    <!--douyu-->
+    <package>SurfaceView - air.tv.douyu.android/tv.douyu.view.activity.PlayerActivity#0</package>
+    <!--douyu-->
+    <package>SurfaceView - com.kwai.android.gzone/com.yxcorp.plugin.live.LivePlayActivity#0</package>
+    <!--huajiao-->
+    <package>SurfaceView - com.huajiao/com.huajiao.detail.WatchesListActivity#0</package>
+    <!--huya--> 
+    <package>SurfaceView - com.duowan.mobile/com.duowan.mobile.basemedia.watchlive.activity.LiveTemplateActivity#0</package>
+    <package>SurfaceView - com.duowan.kiwi/com.duowan.kiwi.liveroom.ChannelPage#2</package>
+    <package>SurfaceView - com.duowan.kiwi/com.duowan.kiwi.liveroom.ChannelPage#1</package>
+    <!--unkonow-->
+    <package>SurfaceView - com.nemo.vidmate/com.nemo.vidmate.ui.video.VideoDetailActivity#0</package>
+    <package>com.meelive.ingkee/com.meelive.ingkee.business.room.ui.activity.RoomActivity#0</package>
+    <package>SurfaceView - com.iqoo.engineermode/com.iqoo.engineermode.VideoPlayerAcitivity#0</package>
+    <package>SurfaceView - com.mxtech.videoplayer.ad/com.mxtech.videoplayer.ad.ActivityScreen#0</package>
+    <package>com.vivo.socketboardtest/com.vivo.socketboardtest.mvp.view.activity.VideoActivity#0</package>
+</display_ic_white_list>
